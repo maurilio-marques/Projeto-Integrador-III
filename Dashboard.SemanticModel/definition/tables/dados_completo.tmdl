@@ -1,0 +1,438 @@
+table dados_completo
+	lineageTag: 0b84cb9a-4e7b-4abb-9ef3-80631cddc6fa
+
+	column MATRICULA
+		dataType: int64
+		formatString: 0
+		lineageTag: b12c27fb-7637-4a3b-9ad2-b81c5b21d7b5
+		summarizeBy: sum
+		sourceColumn: MATRICULA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PROCESSO
+		dataType: int64
+		formatString: 0
+		lineageTag: 09034e82-8e86-4629-a952-f501e4268c55
+		summarizeBy: sum
+		sourceColumn: PROCESSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMERO
+		dataType: int64
+		formatString: 0
+		lineageTag: c6b258d6-d929-4280-a4ec-3d5373538444
+		summarizeBy: sum
+		sourceColumn: NUMERO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ITEM
+		dataType: int64
+		formatString: 0
+		lineageTag: 9237c33d-ff21-4119-b255-9c2930789a81
+		summarizeBy: sum
+		sourceColumn: ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITUACAO
+		dataType: string
+		lineageTag: cd6917b6-425b-4f7e-ae05-366e30a7a1ea
+		summarizeBy: none
+		sourceColumn: SITUACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column VENCIMENTO
+		dataType: int64
+		formatString: 0
+		lineageTag: 0bc55b30-c481-4538-9e09-e530f9871b39
+		summarizeBy: sum
+		sourceColumn: VENCIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SENHA
+		dataType: int64
+		formatString: 0
+		lineageTag: 496e2af2-29c2-40a6-a7d5-e377381bd402
+		summarizeBy: sum
+		sourceColumn: SENHA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANO_SENHA
+		dataType: int64
+		formatString: 0
+		lineageTag: 45409a77-46ba-465b-b110-e27149c7f1a5
+		summarizeBy: sum
+		sourceColumn: ANO_SENHA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MATRICULA_ANTIGA
+		dataType: int64
+		formatString: 0
+		lineageTag: 884881af-844e-4949-942c-783fd0e268e8
+		summarizeBy: sum
+		sourceColumn: MATRICULA_ANTIGA
+
+		annotation SummarizationSetBy = Automatic
+
+	column BENEFICIARIO
+		dataType: string
+		lineageTag: a1ebde97-ab95-4a24-8cf7-758eaa0724f4
+		summarizeBy: none
+		sourceColumn: BENEFICIARIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_USUARIO
+		dataType: int64
+		formatString: 0
+		lineageTag: 9c504b8b-1159-4b51-8cdd-28870c3838bd
+		summarizeBy: sum
+		sourceColumn: COD_USUARIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_CREDENCIADO
+		dataType: int64
+		formatString: 0
+		lineageTag: ff3ddf74-4f8a-4917-b9f1-288574ef6b53
+		summarizeBy: sum
+		sourceColumn: CODIGO_CREDENCIADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_ESPECIALIDADE
+		dataType: int64
+		formatString: 0
+		lineageTag: 9b4b5efb-1a22-4d07-9dbc-025fc42ab174
+		summarizeBy: sum
+		sourceColumn: CODIGO_ESPECIALIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MEDICO_SOLICITANTE
+		dataType: string
+		lineageTag: c3def28a-dba2-4337-b0bc-36cfb79e3d68
+		summarizeBy: none
+		sourceColumn: MEDICO_SOLICITANTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MUNICIPIO
+		dataType: string
+		lineageTag: 6643c826-4213-4191-95db-260cc7e344e7
+		summarizeBy: none
+		sourceColumn: MUNICIPIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_GUIA
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 85534d70-ceb8-4939-9314-78759c1ad0a0
+		summarizeBy: none
+		sourceColumn: DATA_GUIA
+
+		variation Variation
+			isDefault
+			relationship: c5000f25-2066-43af-b269-76a221bc1921
+			defaultHierarchy: LocalDateTable_6d583c75-466d-4568-9319-918e9306e951.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ESTADO
+		dataType: string
+		lineageTag: bebbc3e5-f1b9-49f4-b5d9-144a4ee376b7
+		summarizeBy: none
+		sourceColumn: ESTADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_PROCEDIMENTO
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 74cf3536-9879-4c81-8956-36d435f4387f
+		summarizeBy: none
+		sourceColumn: DATA_PROCEDIMENTO
+
+		variation Variation
+			isDefault
+			relationship: 735e0caf-68c2-43d0-9fdf-e1573d848c2c
+			defaultHierarchy: LocalDateTable_bcbd9da9-e398-4487-b787-5471b0194dbd.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TABELA
+		dataType: int64
+		formatString: 0
+		lineageTag: 58631735-4386-486d-b748-4ec7f37f4f7e
+		summarizeBy: sum
+		sourceColumn: TABELA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_PROCEDIMENTO
+		dataType: int64
+		formatString: 0
+		lineageTag: 9288acd9-8e79-46a1-b398-92033c036c9e
+		summarizeBy: sum
+		sourceColumn: CODIGO_PROCEDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESC_PROCEDIMENTO
+		dataType: string
+		lineageTag: 51d039ec-da45-4b2b-a1aa-3c2fdbc9fae3
+		summarizeBy: none
+		sourceColumn: DESC_PROCEDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTS_ITEM
+		dataType: int64
+		formatString: 0
+		lineageTag: b3f8148c-278e-49c7-918c-dc252a5e7a97
+		summarizeBy: sum
+		sourceColumn: QTS_ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column VAL_INFORMADO
+		dataType: double
+		lineageTag: 2ea16329-5c22-4bc2-87c5-9b99e0ff1b14
+		summarizeBy: sum
+		sourceColumn: VAL_INFORMADO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_GLOSA
+		dataType: double
+		lineageTag: 1b52cd4b-f81f-4e98-94b1-96b9cb981ff0
+		summarizeBy: sum
+		sourceColumn: VAL_GLOSA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_ITEM
+		dataType: double
+		lineageTag: 2046f1d2-67e4-4817-82f8-1436412bfb7a
+		summarizeBy: sum
+		sourceColumn: VAL_ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_COPARTICIPACAO
+		dataType: double
+		lineageTag: 2abee0c9-3229-4030-b9d6-b0789171eaf4
+		summarizeBy: sum
+		sourceColumn: VAL_COPARTICIPACAO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SISTUACAO_GUIA
+		dataType: int64
+		formatString: 0
+		lineageTag: c92b76a3-397a-4b05-aea5-3702fa2705aa
+		summarizeBy: sum
+		sourceColumn: SISTUACAO_GUIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column FASE
+		dataType: int64
+		formatString: 0
+		lineageTag: e5aa939e-53c6-46da-867a-bca70eaba8de
+		summarizeBy: sum
+		sourceColumn: FASE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_DIGITACAO
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 162bcaad-8dfe-4c94-a8ae-baf34d95fddf
+		summarizeBy: none
+		sourceColumn: DATA_DIGITACAO
+
+		variation Variation
+			isDefault
+			relationship: ad883fd2-d654-4148-a642-0eef53fafa07
+			defaultHierarchy: LocalDateTable_307b3762-5ce3-4426-b518-cbab0bd33d81.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TIPO_ATENDIMENTO
+		dataType: string
+		lineageTag: 62e05c62-ad77-4a76-bde4-0c599804086f
+		summarizeBy: none
+		sourceColumn: TIPO_ATENDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CID
+		dataType: string
+		lineageTag: 9b2f6685-6d16-49a6-9bd9-30dd4e3c57ad
+		summarizeBy: none
+		sourceColumn: CID
+
+		annotation SummarizationSetBy = Automatic
+
+	column INDCLI
+		dataType: string
+		lineageTag: 4735537a-24a3-4c3f-915c-aecaa588511f
+		summarizeBy: none
+		sourceColumn: INDCLI
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPIMTEL
+		dataType: string
+		lineageTag: f0130f62-e782-4118-be20-02fab95af146
+		summarizeBy: none
+		sourceColumn: NUMPIMTEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPF_CNPJ
+		dataType: int64
+		formatString: 0
+		lineageTag: f915b1d9-adf7-4448-8d60-ff0ffe328858
+		summarizeBy: sum
+		sourceColumn: CPF_CNPJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOME_CREDENCIADO
+		dataType: string
+		lineageTag: 9483702f-66eb-4f1a-9fdc-25a20fb886de
+		summarizeBy: none
+		sourceColumn: NOME_CREDENCIADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column RAZAO_SOCIAL
+		dataType: string
+		lineageTag: 0cdfe5c1-213c-4fa9-8882-50f24b2b5f54
+		summarizeBy: none
+		sourceColumn: RAZAO_SOCIAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOTE_PAGAMENTO
+		dataType: int64
+		formatString: 0
+		lineageTag: 68878033-dcae-423b-898c-156735a2bebf
+		summarizeBy: sum
+		sourceColumn: LOTE_PAGAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOCAL_DIGITACAO
+		dataType: int64
+		formatString: 0
+		lineageTag: e7eea3b9-3b0c-47c9-a5c2-2b033e98cc38
+		summarizeBy: sum
+		sourceColumn: LOCAL_DIGITACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMISSAO_TITULO
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3b3700aa-57ef-4852-b5c1-9f88a1a5c7eb
+		summarizeBy: none
+		sourceColumn: EMISSAO_TITULO
+
+		variation Variation
+			isDefault
+			relationship: aa6b26ef-ae6e-4b4e-893d-a09c2ba5c298
+			defaultHierarchy: LocalDateTable_4b48a9fc-c0e7-42e4-ac10-81d7fa936708.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DESPESA_CONTABIL
+		dataType: string
+		lineageTag: 108e6e3e-33ff-4d13-aebb-409ab3d71bdd
+		summarizeBy: none
+		sourceColumn: DESPESA_CONTABIL
+
+		annotation SummarizationSetBy = Automatic
+
+	column PATROCINADORA
+		dataType: int64
+		formatString: 0
+		lineageTag: 305d2320-1507-4e07-95dc-c39ca7e47a13
+		summarizeBy: sum
+		sourceColumn: PATROCINADORA
+
+		annotation SummarizationSetBy = Automatic
+
+	column INTERNACAO
+		dataType: string
+		lineageTag: 065170e2-b8cb-4ce6-9f36-4972eded08ae
+		summarizeBy: none
+		sourceColumn: INTERNACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALTA
+		dataType: string
+		lineageTag: e0613288-dd14-4aad-8d4c-080ddc0448d0
+		summarizeBy: none
+		sourceColumn: ALTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PLANO
+		dataType: string
+		lineageTag: 31345718-cef6-4180-adf8-52600d9a3234
+		summarizeBy: none
+		sourceColumn: PLANO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBCONTRATO
+		dataType: int64
+		formatString: 0
+		lineageTag: e2fddc01-bcf0-4eed-8bca-238ce91411cc
+		summarizeBy: sum
+		sourceColumn: SUBCONTRATO
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dados_completo = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("\\viridian\PROFILES$\mmarques\Desktop\dados_completo.csv"),[Delimiter=";", Columns=45, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Column1", Int64.Type}, {"Column2", Int64.Type}, {"Column3", Int64.Type}, {"Column4", Int64.Type}, {"Column5", type text}, {"Column6", Int64.Type}, {"Column7", Int64.Type}, {"Column8", Int64.Type}, {"Column9", Int64.Type}, {"Column10", type text}, {"Column11", Int64.Type}, {"Column12", Int64.Type}, {"Column13", Int64.Type}, {"Column14", type text}, {"Column15", type text}, {"Column16", type date}, {"Column17", type text}, {"Column18", type date}, {"Column19", Int64.Type}, {"Column20", Int64.Type}, {"Column21", type text}, {"Column22", Int64.Type}, {"Column23", type number}, {"Column24", type number}, {"Column25", type number}, {"Column26", type number}, {"Column27", Int64.Type}, {"Column28", Int64.Type}, {"Column29", type date}, {"Column30", type text}, {"Column31", type text}, {"Column32", type text}, {"Column33", type text}, {"Column34", Int64.Type}, {"Column35", type text}, {"Column36", type text}, {"Column37", Int64.Type}, {"Column38", Int64.Type}, {"Column39", type date}, {"Column40", type text}, {"Column41", Int64.Type}, {"Column42", type text}, {"Column43", type text}, {"Column44", type text}, {"Column45", Int64.Type}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"Column1", "MATRICULA"}, {"Column2", "PROCESSO"}, {"Column3", "NUMERO"}, {"Column4", "ITEM"}, {"Column5", "SITUACAO"}, {"Column6", "VENCIMENTO"}, {"Column7", "SENHA"}, {"Column8", "ANO_SENHA"}, {"Column9", "MATRICULA_ANTIGA"}, {"Column10", "BENEFICIARIO"}, {"Column11", "COD_USUARIO"}, {"Column12", "CODIGO_CREDENCIADO"}, {"Column13", "CODIGO_ESPECIALIDADE"}, {"Column14", "MEDICO_SOLICITANTE"}, {"Column15", "MUNICIPIO"}, {"Column16", "DATA_GUIA"}, {"Column17", "ESTADO"}, {"Column18", "DATA_PROCEDIMENTO"}, {"Column19", "TABELA"}, {"Column20", "CODIGO_PROCEDIMENTO"}, {"Column21", "DESC_PROCEDIMENTO"}, {"Column22", "QTS_ITEM"}, {"Column23", "VAL_INFORMADO"}, {"Column24", "VAL_GLOSA"}, {"Column25", "VAL_ITEM"}, {"Column26", "VAL_COPARTICIPACAO"}, {"Column27", "SISTUACAO_GUIA"}, {"Column28", "FASE"}, {"Column29", "DATA_DIGITACAO"}, {"Column30", "TIPO_ATENDIMENTO"}, {"Column31", "CID"}, {"Column32", "INDCLI"}, {"Column33", "NUMPIMTEL"}, {"Column34", "CPF_CNPJ"}, {"Column35", "NOME_CREDENCIADO"}, {"Column36", "RAZAO_SOCIAL"}, {"Column37", "LOTE_PAGAMENTO"}, {"Column38", "LOCAL_DIGITACAO"}, {"Column39", "EMISSAO_TITULO"}, {"Column40", "DESPESA_CONTABIL"}, {"Column41", "PATROCINADORA"}, {"Column42", "INTERNACAO"}, {"Column43", "ALTA"}, {"Column44", "PLANO"}, {"Column45", "SUBCONTRATO"}})
+				in
+				    #"Colunas Renomeadas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

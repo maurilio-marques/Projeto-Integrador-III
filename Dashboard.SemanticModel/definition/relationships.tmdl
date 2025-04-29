@@ -1,0 +1,20 @@
+relationship c5000f25-2066-43af-b269-76a221bc1921
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dados_completo.DATA_GUIA
+	toColumn: LocalDateTable_6d583c75-466d-4568-9319-918e9306e951.Date
+
+relationship 735e0caf-68c2-43d0-9fdf-e1573d848c2c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dados_completo.DATA_PROCEDIMENTO
+	toColumn: LocalDateTable_bcbd9da9-e398-4487-b787-5471b0194dbd.Date
+
+relationship ad883fd2-d654-4148-a642-0eef53fafa07
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dados_completo.DATA_DIGITACAO
+	toColumn: LocalDateTable_307b3762-5ce3-4426-b518-cbab0bd33d81.Date
+
+relationship aa6b26ef-ae6e-4b4e-893d-a09c2ba5c298
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dados_completo.EMISSAO_TITULO
+	toColumn: LocalDateTable_4b48a9fc-c0e7-42e4-ac10-81d7fa936708.Date
+
