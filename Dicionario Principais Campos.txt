@@ -1,0 +1,57 @@
+MATRICULA: É numero da carteira do beneficiário, um beneficiário pode ter mais de uma matricula durante a vida dele, isso acontece por que ele pode muda de empresa, no campo PATROCINIO explico melhor. Dessa maneira evite usar como campo de ID.
+
+VENCIMENTO: Data de corte da coparticipação, o valor pago do plano tem dois tipos de valores que compõe, a mensalidade que é o valor fixo que você paga todo mês para ter o plano e a coparticipação que é o valor de 30% cobrado por todos os procedimentos que o beneficiário faz. Se ele fez um procedimento de 200 reais, o plano só cobra 30% dele, ou seja, 40 reais. Esse campo vencimento é como se fosse a data de corte do que vai ser cobrado no mês seguinte. Se você quer saber por exemplo o que vai ser cobrado no mês de Abril/2025 por exemplo, você deve filtrar como "VENCIMENTO >= 20250301 AND VENCIMENTO <= 20250331"
+
+MATRICULA_ANTIGA: Pode usar como ID, mesmo que a MATRICULA mude, essa matricula não muda.
+
+CODIGO_CREDENCIADO: É o código do prestador/credenciado na nossa operadora/sistema.
+
+CODIGO_ESPECIALIDADE: É o código da especialidade que foi usada na consulta, vou manda um tabela extra para fazer o relacionamento.
+
+MEDICO_SOLICITANTE: É o medico que solicitou a consulta, muitas vezes o solicitante tbm pode ser o executante por que aqui você não precisa ir no clinico geral por exemplo para fazer um exame, exemplo, fui agora no dermatologista, e fiz uma consulta pra usar roacutan, a consulta vai sair como medico solicitante o mesmo medico que me atendeu, digamos que ela me passe uma bateria de exames laboratoriais para fazer, ai sim, ai sim vou esta fazendo um outro procedimento, em um outro local, mas o solicitado por um medico. 
+
+MUNICIPIO: Local de realização do procedimento.
+
+DATA_GUIA: É a data que foi gerado a autorização para realizar o procedimento.
+
+DATA_PROCEDIMENTO: É a data que foi realizado o procedimento, normalmente ela pode ser igual ou superior a data guia.
+
+CODIGO_PROCEDIMENTO: autoexplicativo.
+
+DESC_PROCEDIMENTO: Descrição do procedimento.
+
+TABELA: Os procedimentos são agrupados por tabelas, por exemplo, quando você ver a tabela 20, significa que o procedimento é referente a MEDICAMENTOS. 
+
+QTS_ITEM: É a quantidade de procedimentos realizados. As vezes tem procedimento como um DOPPLER COLORIDO ARTERIAL DE MEMBRO INFERIOR - UNILATERAL que é considerado como 2 itens, pq é 1 para cada perna por exemplo.
+
+VAL_INFORMADO: É o valor que o prestador esta cobrando pelos procedimentos, esse é o valor cheio, então se quiser saber o unitário divida pela quantidade. 
+
+VAL_GLOSA: Conceito muito importante, glosa é um valor que foi descontado do valor do procedimento for esta divergente do valor de tabela. Por exemplo, eu fiz um DOPPLER COLORIDO e o valor é R$ 400 e o prestador veio informado que cobrou R$ 500, o pessoal do faturamento, vai lança R$ 100 de glosa, ou seja, é um desconto do valor que o prestador informou, pois considera como uma cobrança indevida. Agora você deve se perguntar, mas onde eu vejo esses valores de tabela, nesse caso não vamos precisar consultar pq o valor já ta aqui mas se quiser entender mais acesse o link (https://www.linkedin.com/pulse/correla%C3%A7%C3%A3o-tuss-e-rol-o-que-%C3%A9-qual-sua-import%C3%A2ncia-guido-pereira/)
+
+VAL_ITEM: É o valor realmente pago pelo procedimento, ou seja, VAL_INFORMADO - VAL_GLOSA.
+
+VAL_COPARTICIPACAO: É o valor que vai ser cobrado para o beneficiário, corresponde a 30% do valor do procedimento. Se for vacinas, é 50%. 
+
+SITUACAO: 1 é igual que a guia esta ativa.
+
+FASE: Todas vão esta como 4 por que foi faturada, se tiver alguma fora desse valor retirar.
+
+
+NOME_CREDENCIADO: Nome do prestador que foi realizado o procedimento.
+
+EMISSAO_TITULO: É a data que foi emitido o titulo de cobrança. 
+
+PATROCINADORA: É referente a empresa na qual o beneficiário esta incluído, cada numeração é referente a uma empresa diferente, entretanto, para os dados, o que importa é ele ser 0090 que correspondente ao plano Banescaixa Familiar, todo o resto que é 0003,0008,0013,0016 é referente ao plano Banescaixa.
+
+
+PLANO: Nome do plano de acordo com a regra da patrocinadora.
+
+
+
+
+
+
+
+
+
+
