@@ -1,0 +1,645 @@
+table Consulta1
+	lineageTag: 345aa7ee-4a49-4e19-b941-142c494ebf05
+
+	column MATRICULA
+		dataType: string
+		lineageTag: 92367727-6ce8-4fd6-aa0a-1c3b40b2e3e9
+		summarizeBy: none
+		sourceColumn: MATRICULA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PROCESSO
+		dataType: double
+		lineageTag: 9298c673-5bd2-412b-a19b-734c3b1bb07d
+		summarizeBy: sum
+		sourceColumn: PROCESSO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NUMERO
+		dataType: double
+		lineageTag: b3cfb959-5de2-4d49-b7d5-c54d95cbaa9f
+		summarizeBy: sum
+		sourceColumn: NUMERO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ITEM
+		dataType: string
+		lineageTag: 943b8465-8478-4f2b-b41c-678479f977a3
+		summarizeBy: none
+		sourceColumn: ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITUACAO
+		dataType: string
+		lineageTag: 5e1e4d6a-cd1b-42ad-99a2-19ca84e87241
+		summarizeBy: none
+		sourceColumn: SITUACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column VENCIMENTO
+		dataType: string
+		lineageTag: 7c8e9659-c9de-41d8-9797-b4404939f436
+		summarizeBy: none
+		sourceColumn: VENCIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SENHA
+		dataType: string
+		lineageTag: 8b186d8c-79df-4e84-8122-18afb0f531d8
+		summarizeBy: none
+		sourceColumn: SENHA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANO_SENHA
+		dataType: string
+		lineageTag: d63d3587-a78c-482e-81d2-dceafe097a86
+		summarizeBy: none
+		sourceColumn: ANO_SENHA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MATRICULA_ANTIGA
+		dataType: string
+		lineageTag: 8cb6b86e-0765-4e49-aa71-c3bd656e4b14
+		summarizeBy: none
+		sourceColumn: MATRICULA_ANTIGA
+
+		annotation SummarizationSetBy = Automatic
+
+	column BENEFICIARIO
+		dataType: string
+		lineageTag: 9099d0ba-7138-4008-88fd-4f6c0eecd1dd
+		summarizeBy: none
+		sourceColumn: BENEFICIARIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_USUARIO
+		dataType: string
+		lineageTag: bd6f3d34-a5e0-457f-b567-85fcc287913f
+		summarizeBy: none
+		sourceColumn: COD_USUARIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_CREDENCIADO
+		dataType: string
+		lineageTag: 077daf99-36bb-4a16-8a77-31e24bf674ed
+		summarizeBy: none
+		sourceColumn: CODIGO_CREDENCIADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_ESPECIALIDADE
+		dataType: string
+		lineageTag: 63e3648b-be9e-4a50-8f22-e171c99db871
+		summarizeBy: none
+		sourceColumn: CODIGO_ESPECIALIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MEDICO_SOLICITANTE
+		dataType: string
+		lineageTag: 0790bbe1-d28e-4ef8-ac48-cca7b5249c7c
+		summarizeBy: none
+		sourceColumn: MEDICO_SOLICITANTE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MUNICIPIO
+		dataType: string
+		lineageTag: 2fe5a91b-68da-4114-bb47-81e2434f66c6
+		summarizeBy: none
+		sourceColumn: MUNICIPIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_GUIA
+		dataType: string
+		lineageTag: 4cbdba14-208d-4c51-a78d-2bdf7dfbf41b
+		summarizeBy: none
+		sourceColumn: DATA_GUIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ESTADO
+		dataType: string
+		lineageTag: 5d3f1c6a-5fbf-4cc6-80f5-42f595fa58c3
+		summarizeBy: none
+		sourceColumn: ESTADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_PROCEDIMENTO
+		dataType: string
+		lineageTag: 52ebaba9-da34-4511-9f52-4fde2b7a54e4
+		summarizeBy: none
+		sourceColumn: DATA_PROCEDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TABELA
+		dataType: string
+		lineageTag: 897a3f1a-89e0-4391-8cd0-bbfcde202a37
+		summarizeBy: none
+		sourceColumn: TABELA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_PROCEDIMENTO
+		dataType: string
+		lineageTag: 27eeb84c-2883-48bb-92ea-bf08618ab6fc
+		summarizeBy: none
+		sourceColumn: CODIGO_PROCEDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESC_PROCEDIMENTO
+		dataType: string
+		lineageTag: 5b61a057-324e-47d1-87a2-be7a007767e6
+		summarizeBy: none
+		sourceColumn: DESC_PROCEDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTD_ITEM
+		dataType: double
+		lineageTag: a6fa6bce-10fa-40b5-9154-7685b727fd0e
+		summarizeBy: sum
+		sourceColumn: QTD_ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_INFORMADO
+		dataType: double
+		lineageTag: 443012a7-6946-4eaf-ae22-6dd98fd045e4
+		summarizeBy: sum
+		sourceColumn: VAL_INFORMADO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_GLOSA
+		dataType: double
+		lineageTag: b9f5e74e-8d35-4caa-b278-99020d214c44
+		summarizeBy: sum
+		sourceColumn: VAL_GLOSA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_ITEM
+		dataType: double
+		lineageTag: 4f4bac59-7ff5-4396-919c-b57d7cbbe599
+		summarizeBy: sum
+		sourceColumn: VAL_ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_COPARTICIPACAO
+		dataType: double
+		lineageTag: 79beb00f-5921-41b6-9732-ed270880854a
+		summarizeBy: sum
+		sourceColumn: VAL_COPARTICIPACAO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SISTUACAO
+		dataType: string
+		lineageTag: a3fbd18e-5516-4c13-815a-e15eaca7b8f6
+		summarizeBy: none
+		sourceColumn: SISTUACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column FASE
+		dataType: string
+		lineageTag: a8c7af64-0541-4cce-963d-9536592f45ff
+		summarizeBy: none
+		sourceColumn: FASE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_DIGITACAO
+		dataType: string
+		lineageTag: b991946b-c267-4eaa-a319-ea5367218f09
+		summarizeBy: none
+		sourceColumn: DATA_DIGITACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column TIPO_ATENDIMENTO
+		dataType: string
+		lineageTag: 75cae640-689c-4559-bc60-b3f0efb9865e
+		summarizeBy: none
+		sourceColumn: TIPO_ATENDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CID
+		dataType: string
+		lineageTag: 9ed861fd-e6f5-4bc0-9943-6514b01c7753
+		summarizeBy: none
+		sourceColumn: CID
+
+		annotation SummarizationSetBy = Automatic
+
+	column INDCLI
+		dataType: string
+		lineageTag: f39bd6df-1cb2-41a6-902c-89682850c94e
+		summarizeBy: none
+		sourceColumn: INDCLI
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPIMTEL
+		dataType: string
+		lineageTag: 4f375df7-d609-4cf9-992a-92942f06eff2
+		summarizeBy: none
+		sourceColumn: NUMPIMTEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPF_CNPJ
+		dataType: string
+		lineageTag: db49bc5c-75a2-4b5c-a6c2-0d3b83b4166a
+		summarizeBy: none
+		sourceColumn: CPF_CNPJ
+
+		annotation SummarizationSetBy = Automatic
+
+	column NOME_CREDENCIADO
+		dataType: string
+		lineageTag: 233e970c-bd43-4ebc-bf9a-2ba8a3d5e82f
+		summarizeBy: none
+		sourceColumn: NOME_CREDENCIADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column RAZAO_SOCIAL
+		dataType: string
+		lineageTag: a6262cb4-90bf-4961-833b-511bb4400f9a
+		summarizeBy: none
+		sourceColumn: RAZAO_SOCIAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOTE_PAGAMENTO
+		dataType: string
+		lineageTag: ab0f270d-d3d7-4db4-a771-e36e416b0f71
+		summarizeBy: none
+		sourceColumn: LOTE_PAGAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOCAL_DIGITACAO
+		dataType: string
+		lineageTag: 738ce1c7-b9cf-4525-ac03-61aa03f590ba
+		summarizeBy: none
+		sourceColumn: LOCAL_DIGITACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMISSAO_TITULO
+		dataType: string
+		lineageTag: 60d1a635-6712-48a9-b9c3-11fb36b80af7
+		summarizeBy: none
+		sourceColumn: EMISSAO_TITULO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESPESA_CONTABIL
+		dataType: string
+		lineageTag: 5dadf625-bb0f-4eba-9fdc-a436c131fc40
+		summarizeBy: none
+		sourceColumn: DESPESA_CONTABIL
+
+		annotation SummarizationSetBy = Automatic
+
+	column PATROCINADORA
+		dataType: string
+		lineageTag: e4b57d28-a4cc-4042-9136-d564fa796542
+		summarizeBy: none
+		sourceColumn: PATROCINADORA
+
+		annotation SummarizationSetBy = Automatic
+
+	column INTERNACAO
+		dataType: string
+		lineageTag: 5cb2e7e2-977f-4f11-91dd-d018a0cad397
+		summarizeBy: none
+		sourceColumn: INTERNACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALTA
+		dataType: string
+		lineageTag: f494d048-8091-48bf-bbd6-f3791a831535
+		summarizeBy: none
+		sourceColumn: ALTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PLANO
+		dataType: string
+		lineageTag: 8cd390b9-e52a-4517-a787-a1a718b8be9f
+		summarizeBy: none
+		sourceColumn: PLANO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBCONTATO
+		dataType: string
+		lineageTag: a5d2faaf-4aaa-4852-9867-4289ebd97cf5
+		summarizeBy: none
+		sourceColumn: SUBCONTATO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANO_GUIA
+		dataType: string
+		lineageTag: e4809249-d69d-417e-b49a-2f90b304850d
+		summarizeBy: none
+		sourceColumn: ANO_GUIA
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Consulta1 = m
+		mode: import
+		source = ```
+				let
+				    Fonte = Sql.Database("181.41.174.74,3717", "C7Y3ZJ_130991_PR_PD", [Query="WITH Dados AS (
+				
+				SELECT BD5_CODOPE + BD5_CODEMP + BD5_MATRIC + BD5_TIPREG + BD5_DIGITO AS MATRICULA,
+				       CONVERT(FLOAT,BD5_CODPEG) PROCESSO,
+				       CONVERT(FLOAT,BD5_NUMERO) NUMERO,
+				       BD6_SEQUEN ITEM,
+				       CASE
+				           WHEN BD5_SITUAC = '1' THEN 'ATIVA'
+				           WHEN BD5_SITUAC = '2' THEN 'CANCELADA'
+				           ELSE 'BLOQUEADA'
+				       END SITUACAO,
+				       E2_VENCTO AS VENCIMENTO,
+				       BD5_SENHA AS SENHA,
+				       BD5_ANOAUT AS ANO_SENHA,
+				       BD5_MATANT AS MATRICULA_ANTIGA,
+				       BD5_NOMUSR AS BENEFICIARIO,
+				       BD5_TIPREG AS COD_USUARIO,
+				       BD5_CODRDA AS CODIGO_CREDENCIADO,
+				       BD5_CODESP CODIGO_ESPECIALIDADE,
+				       BD5_NOMSOL AS MEDICO_SOLICITANTE,
+				       BB8010.BB8_MUN AS MUNICIPIO,
+				       CONVERT(CHAR(10), CONVERT(DATE,BD5_DATPRO, 102), 103) AS DATA_GUIA,
+				       BD5_ESTSOL AS ESTADO,
+				       CONVERT(CHAR(10), CONVERT(DATE,BD6_DATPRO, 102), 103) AS DATA_PROCEDIMENTO,
+				       BD6_CODPAD AS TABELA,
+				       BD6010.BD6_CODPRO AS CODIGO_PROCEDIMENTO,
+				       BD6010.BD6_DESPRO AS DESC_PROCEDIMENTO,
+				       BD6010.BD6_QTDPRO AS QTD_ITEM,
+				       BD6_VALORI AS VAL_INFORMADO,
+				       BD6010.BD6_VLRGLO AS VAL_GLOSA,
+				       BD6010.BD6_VLRPAG AS VAL_ITEM,
+				       BD6010.BD6_VLRPF AS VAL_COPARTICIPACAO,
+				       BD6010.BD6_SITUAC SISTUACAO,
+				       BD6010.BD6_FASE FASE,
+				       CONVERT(CHAR(10), CONVERT(DATE,BD5_DTDIGI, 102), 103) AS DATA_DIGITACAO,
+				       BDR010.BDR_CARINT AS TIPO_ATENDIMENTO,
+				       BD5_CID AS CID,
+				       BD5_INDCLI AS INDCLI,
+				       BAU010.BAU_TEL AS NUMPIMTEL,
+				       BAU010.BAU_CPFCGC AS CPF_CNPJ,
+				       BAU010.BAU_NOME AS NOME_CREDENCIADO,
+				       BAU010.BAU_NFANTA AS RAZAO_SOCIAL,
+				       BD6010.BD6_NUMLOT LOTE_PAGAMENTO,
+				       BD6_CODLDP LOCAL_DIGITACAO,
+				       CONVERT(CHAR(10), CONVERT(DATE,E2_EMISSAO, 102), 103) EMISSAO_TITULO,
+				       CASE
+				           WHEN BFA_CODIGO = '1.01'
+				                AND BD5_TIPATE <> 7 THEN 'CONSULTAS'
+				           WHEN BFA_CODIGO = '1.02'
+				                AND BD5_TIPATE <> 7 THEN 'EXAMES AMBULATORIAIS'
+				           WHEN BFA_CODIGO = '1.03'
+				                AND BD5_TIPATE <> 7 THEN 'TERAPIAS AMBULATORIAS'
+				           WHEN BD5_TIPATE = 7 THEN 'INTERNAÇÃO'
+				           WHEN BFA_CODIGO = '1.05'
+				                AND BD5_TIPATE <> 7 THEN 'OUTROS ATENDIMENTOS'
+				           ELSE 'DEMAIS DESPESAS'
+				       END DESPESA_CONTABIL,
+				       BD6010.BD6_CODEMP PATROCINADORA,
+				       '' INTERNACAO,
+				          '' ALTA,
+				             CASE
+				                 WHEN BAU_TIPPRE <> 'OPE'
+				                      AND (BD6010.BD6_CODEMP < 16
+				                           OR (BD6010.BD6_CODEMP = 16
+				                               AND BA1_SUBCON = '000000002')) THEN 'PLANO BANESCAIXA'
+				                 WHEN BAU_TIPPRE <> 'OPE'
+				                      AND BD6010.BD6_CODEMP = 16
+				                      AND BA1_SUBCON = '000000001' THEN 'PLANO BANESCAIXA - FUNCIONARIOS'
+				                 WHEN BAU_TIPPRE <> 'OPE'
+				                      AND BD6010.BD6_CODEMP > 50
+				                      AND BD6010.BD6_CODEMP <> 90 THEN 'CONVENIO A RECEBER'
+				                 WHEN BAU_TIPPRE <> 'OPE'
+				                      AND BD6010.BD6_CODEMP = 90 THEN 'PLANO BANESCAIXA FAMILIAR'
+				                 WHEN BAU_TIPPRE = 'OPE'
+				                      AND BD6010.BD6_CODEMP <> 90 THEN 'CONVENIO A PAGAR'
+				                 WHEN BAU_TIPPRE = 'OPE'
+				                      AND BD6010.BD6_CODEMP = 90 THEN 'CONVENIO A PAGAR - FAMILIAR'
+				             END PLANO,
+				             BD5_SUBCON SUBCONTATO
+				FROM BD5010
+				INNER JOIN BD6010 ON BD5010.BD5_FILIAL = BD6010.BD6_FILIAL
+				AND BD5010.BD5_CODOPE = BD6010.BD6_CODOPE
+				AND BD5_CODLDP = BD6_CODLDP
+				AND BD5010.BD5_CODRDA = BD6010.BD6_CODRDA
+				AND BD5010.BD5_NUMERO = BD6010.BD6_NUMERO
+				AND BD5010.BD5_CODPEG = BD6010.BD6_CODPEG
+				AND BD5_FASE = BD6_FASE
+				AND BD5_SITUAC = BD6_SITUAC
+				AND BD6010.D_E_L_E_T_ = ''
+				INNER JOIN BAQ010 ON BD6_CODESP = BAQ_CODESP
+				AND BAQ010.D_E_L_E_T_ = ''
+				INNER JOIN BAU010 ON BD5010.BD5_FILIAL = BAU010.BAU_FILIAL
+				AND BD5010.BD5_CODRDA = BAU010.BAU_CODIGO
+				AND BAU010.D_E_L_E_T_ = ''
+				LEFT JOIN BDR010 ON BD5010.BD5_TIPADM = BDR010.BDR_CODTAD
+				AND BDR010.D_E_L_E_T_ = ''
+				LEFT OUTER JOIN SE2010 ON E2_FILIAL = '0101'
+				AND BD5010.BD5_NUMLOT = E2_PLLOTE
+				AND E2_TIPO IN ('FT',
+				                'CO',
+				                'NF')
+				AND E2_PLLOTE <> ''
+				AND E2_PREFIXO <> 'MAN'
+				AND SE2010.D_E_L_E_T_ = ''
+				LEFT OUTER JOIN BB8010 ON BD5010.BD5_FILIAL = BB8010.BB8_FILIAL
+				AND BD5010.BD5_CODLOC = BB8010.BB8_CODLOC
+				AND BD5010.BD5_CODRDA = BB8010.BB8_CODIGO
+				AND BD5010.BD5_LOCAL = BB8010.BB8_LOCAL 
+				AND BB8010.D_E_L_E_T_ = ''
+				AND BD5010.D_E_L_E_T_ = ''
+				INNER JOIN BA1010 ON BD5010.BD5_CODEMP = BA1010.BA1_CODEMP
+				AND BD5010.BD5_MATRIC = BA1010.BA1_MATRIC
+				AND BA1010.BA1_TIPUSU = 'T'
+				AND BA1010.D_E_L_E_T_ = ''
+				LEFT OUTER JOIN BFA010 ON BD6010.BD6_CODPRO = BFA010.BFA_CODPSA
+				AND BFA010.D_E_L_E_T_ = ''
+				AND BFA_ATIVO = 1WHERE BD6_FASE = 4
+				AND E2_VENCTO >= '20210101'
+				AND BD6010.BD6_CODLDP IN ('0001',
+				                          '0002',
+				                          '0003',
+				                          '0010')
+				UNION ALL
+				
+				
+				
+				
+				
+				SELECT BE4_CODOPE + BE4_CODEMP + BE4_MATRIC + BE4_TIPREG + BE4_DIGITO AS MATRICULA,
+				       CONVERT(FLOAT,BE4_CODPEG) PROCESSO,
+				       CONVERT(FLOAT,BE4_NUMERO) NUMERO,
+				       BD6_SEQUEN ITEM,
+				       CASE
+				           WHEN BE4_SITUAC = '1' THEN 'ATIVA'
+				           WHEN BE4_SITUAC = '2' THEN 'CANCELADA'
+				           ELSE 'BLOQUEADA'
+				       END SITUACAO,
+				       E2_VENCTO AS VENCIMENTO,
+				       BE4_SENHA AS SENHA,
+				       BE4_ANOINT AS ANO_SENHA,
+				       BE4_MATANT AS MATRICULA_ANTIGA,
+				       BE4_NOMUSR AS BENEFICIARIO,
+				       BE4_TIPREG AS COD_USUARIO,
+				       BE4_CODRDA AS CODIGO_CREDENCIADO,
+				       BE4_CODESP CODIGO_ESPECIALIDADE,
+				       BE4_NOMSOL AS MEDICO_SOLICITANTE,
+				       BB8010.BB8_MUN AS MUNICIPIO,
+				       CONVERT(CHAR(10), CONVERT(DATE,BE4_DATPRO, 102), 103) AS DATA_GUIA,
+				       BE4_ESTSOL AS ESTADO,
+				       CONVERT(CHAR(10), CONVERT(DATE,BD6_DATPRO, 102), 103) AS DATA_PROCEDIMENTO,
+				       BD6_CODPAD AS TABELA,
+				       BD6010.BD6_CODPRO AS CODIGO_PROCEDIMENTO,
+				       BD6010.BD6_DESPRO AS DESC_PROCEDIMENTO,
+				       BD6010.BD6_QTDPRO AS QTD_ITEM,
+				       BD6_VALORI AS VAL_INFORMADO,
+				       BD6010.BD6_VLRGLO AS VAL_GLOSA,
+				       BD6010.BD6_VLRPAG AS VAL_ITEM,
+				       BD6010.BD6_VLRPF AS VAL_COPARTICIPACAO,
+				       BD6010.BD6_SITUAC SISTUACAO,
+				       BD6010.BD6_FASE FASE,
+				       CONVERT(CHAR(10), CONVERT(DATE,BE4_DTDIGI, 102), 103) AS DATA_DIGITACAO,
+				       BDR010.BDR_CARINT AS TIPO_ATENDIMENTO,
+				       BE4_CID AS CID,
+				       BE4_INDCLI AS INDCLI,
+				       BAU010.BAU_TEL AS NUMPIMTEL,
+				       BAU010.BAU_CPFCGC AS CPF_CNPJ,
+				       BAU010.BAU_NOME AS NOME_CREDENCIADO,
+				       BAU010.BAU_NFANTA AS RAZAO_SOCIAL,
+				       BD6010.BD6_NUMLOT LOTE_PAGAMENTO,
+				       BD6_CODLDP LOCAL_DIGITACAO,
+				       CONVERT(CHAR(10), CONVERT(DATE,E2_EMISSAO, 102), 103) EMISSAO_TITULO,
+				       'INTERNAÇÃO' COD_CONTABIL,
+				                    BD6010.BD6_CODEMP PATROCINADORA,
+				                    CONVERT(CHAR(10), CONVERT(DATE,BE4_PRVINT, 102), 103) INTERNACAO,
+				                    CONVERT(CHAR(10), CONVERT(DATE,BE4_DTALTA, 102), 103) ALTA,
+				                    CASE
+				                        WHEN BAU_TIPPRE <> 'OPE'
+				                             AND (BD6010.BD6_CODEMP < 16
+				                                  OR (BD6010.BD6_CODEMP = 16
+				                                      AND BA1_SUBCON = '000000002')) THEN 'PLANO BANESCAIXA'
+				                        WHEN BAU_TIPPRE <> 'OPE'
+				                             AND BD6010.BD6_CODEMP = 16
+				                             AND BA1_SUBCON = '000000001' THEN 'PLANO BANESCAIXA - FUNCIONARIOS'
+				                        WHEN BAU_TIPPRE <> 'OPE'
+				                             AND BD6010.BD6_CODEMP > 50
+				                             AND BD6010.BD6_CODEMP <> 90 THEN 'CONVENIO A RECEBER'
+				                        WHEN BAU_TIPPRE <> 'OPE'
+				                             AND BD6010.BD6_CODEMP = 90 THEN 'PLANO BANESCAIXA FAMILIAR'
+				                        WHEN BAU_TIPPRE = 'OPE'
+				                             AND BD6010.BD6_CODEMP <> 90 THEN 'CONVENIO A PAGAR'
+				                        WHEN BAU_TIPPRE = 'OPE'
+				                             AND BD6010.BD6_CODEMP = 90 THEN 'CONVENIO A PAGAR - FAMILIAR'
+				                    END PLANO,
+				                    BE4_SUBCON SUBCONTATO
+				FROM BE4010
+				INNER JOIN BD6010 ON BE4010.BE4_FILIAL = BD6010.BD6_FILIAL
+				AND BE4010.BE4_CODOPE = BD6010.BD6_CODOPE
+				AND BE4_CODLDP = BD6_CODLDP
+				AND BE4010.BE4_CODRDA = BD6010.BD6_CODRDA
+				AND BE4010.BE4_NUMERO = BD6010.BD6_NUMERO
+				AND BE4010.BE4_CODPEG = BD6010.BD6_CODPEG
+				AND BE4_FASE = BD6_FASE
+				AND BE4_SITUAC = BD6_SITUAC
+				AND BD6010.D_E_L_E_T_ = ''
+				INNER JOIN BAU010 ON BE4010.BE4_FILIAL = BAU010.BAU_FILIAL
+				AND BE4010.BE4_CODRDA = BAU010.BAU_CODIGO
+				AND BAU010.D_E_L_E_T_ = ''
+				INNER JOIN BAQ010 ON BD6_CODESP = BAQ_CODESP
+				AND BAQ010.D_E_L_E_T_ = ''
+				LEFT JOIN BDR010 ON BE4010.BE4_TIPADM = BDR010.BDR_CODTAD
+				AND BDR010.D_E_L_E_T_ = ''
+				LEFT OUTER JOIN SE2010 ON E2_FILIAL = '0101'
+				AND BE4010.BE4_NUMLOT = E2_PLLOTE
+				AND E2_TIPO IN('FT',
+				               'NF')
+				AND E2_PREFIXO <> 'MAN'
+				AND E2_PLLOTE <> ''
+				AND SE2010.D_E_L_E_T_ = ''
+				LEFT OUTER JOIN BI4010 ON BE4010.BE4_PADINT = BI4010.BI4_CODACO
+				AND BI4010.D_E_L_E_T_ = ''
+				LEFT OUTER JOIN BB8010 ON BE4010.BE4_FILIAL = BB8010.BB8_FILIAL
+				AND BE4010.BE4_CODLOC = BB8010.BB8_CODLOC
+				AND BE4010.BE4_CODRDA = BB8010.BB8_CODIGO
+				AND BE4010.BE4_LOCAL = BB8010.BB8_LOCAL
+				AND BB8010.D_E_L_E_T_ = ''
+				AND BE4010.D_E_L_E_T_ = ''
+				INNER JOIN BA1010 ON BE4010.BE4_CODEMP = BA1010.BA1_CODEMP
+				AND BE4010.BE4_MATRIC = BA1010.BA1_MATRIC
+				AND (BA1010.BA1_TIPUSU = 'T')
+				AND BA1010.D_E_L_E_T_ = ''
+				LEFT OUTER JOIN BFA010 ON BD6010.BD6_CODPRO = BFA010.BFA_CODPSA
+				AND BFA010.D_E_L_E_T_ = ''
+				AND BFA_ATIVO = 1 WHERE BD6_FASE = 4
+				AND E2_VENCTO >= '20210101'
+				AND BD6010.BD6_CODLDP IN ('0001',
+				                          '0002',
+				                          '0003',
+				                          '0010')
+										  )
+				
+				SELECT *
+				FROM Dados
+				WHERE  DESPESA_CONTABIL <> 'INTERNAÇÃO'
+				--AND VENCIMENTO >= '20250101' and VENCIMENTO <= '20250131' 
+				and DATA_GUIA >= '01/01/2023' and DATA_GUIA <= '31/12/2024'
+				AND VAL_COPARTICIPACAO > 0"]),
+				    #"Últimos caracteres inseridos" = Table.AddColumn(Fonte, "Últimos caracteres", each Text.End([DATA_PROCEDIMENTO], 4), type text),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Últimos caracteres inseridos",{{"Últimos caracteres", "ANO_GUIA"}})
+				in
+				    #"Colunas Renomeadas"
+				```
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
