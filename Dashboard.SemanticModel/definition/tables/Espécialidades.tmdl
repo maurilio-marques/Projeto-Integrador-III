@@ -1,0 +1,43 @@
+table Espécialidades
+	lineageTag: 0b6f5f29-85f1-4cf6-9ea2-9d540809205d
+
+	column BAQ_CODESP
+		dataType: int64
+		formatString: 0
+		lineageTag: 95a1a1f1-f497-4b45-be71-e80382531df6
+		summarizeBy: none
+		sourceColumn: BAQ_CODESP
+
+		annotation SummarizationSetBy = Automatic
+
+	column BAQ_DESCRI
+		dataType: string
+		lineageTag: 89aa3aac-1bf5-4c0b-a64f-7a8fae41e0cd
+		summarizeBy: none
+		sourceColumn: BAQ_DESCRI
+
+		annotation SummarizationSetBy = Automatic
+
+	column BAQ_CODPAD
+		dataType: int64
+		formatString: 0
+		lineageTag: b9e68b26-d528-4019-929d-3bf1b88f2a6c
+		summarizeBy: none
+		sourceColumn: BAQ_CODPAD
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Espécialidades = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\Maurilio\Desktop\Projeto-Integrador-III\database\Espécialidades.csv"),[Delimiter=";", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"BAQ_CODESP", Int64.Type}, {"BAQ_DESCRI", type text}, {"BAQ_CODPAD", Int64.Type}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

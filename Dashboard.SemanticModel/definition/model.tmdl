@@ -6,10 +6,18 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-/// Erros nas consultas que foram carregadas em 29/04/2025 18:26:24.
-queryGroup 'Erros na Consulta - 29/04/2025 18:26:24'
+queryGroup 'Transformar Arquivo de database'
 
 	annotation PBI_QueryGroupOrder = 0
+
+queryGroup 'Transformar Arquivo de database\Consultas Auxiliares'
+
+	annotation PBI_QueryGroupOrder = 0
+
+/// Erros nas consultas que foram carregadas em 01/05/2025 03:19:54.
+queryGroup 'Erros na Consulta - 01/05/2025 03:19:54'
+
+	annotation PBI_QueryGroupOrder = 2
 
 annotation PBI_ProTooling = ["DevMode"]
 
@@ -17,15 +25,15 @@ annotation PBIDesktopVersion = 2.142.928.0 (25.04)+de52df9f0bb74ad93a80d89c52d63
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["Consulta1","dados_completo","Erros em dados_completo"]
+annotation PBI_QueryOrder = ["database","Arquivo de Amostra","Parâmetro1","Transformar o Arquivo de Exemplo","Transformar Arquivo","Erros em database","Espécialidades"]
 
-ref table Consulta1
-ref table dados_completo
-ref table DateTableTemplate_aaa24947-a9ad-4108-a174-f3462e388795
-ref table LocalDateTable_6d583c75-466d-4568-9319-918e9306e951
-ref table LocalDateTable_bcbd9da9-e398-4487-b787-5471b0194dbd
-ref table LocalDateTable_307b3762-5ce3-4426-b518-cbab0bd33d81
-ref table LocalDateTable_4b48a9fc-c0e7-42e4-ac10-81d7fa936708
+ref table database
+ref table DateTableTemplate_fb0fb56f-e56d-4847-9e02-39bc5078c157
+ref table LocalDateTable_8600b7d2-30eb-4682-8ce9-9892fd88c47f
+ref table LocalDateTable_aad2aecc-8fd3-4c9e-b5b6-3c6c0dde4e89
+ref table LocalDateTable_3b8c1ad3-e7b5-4b0a-b05e-315bb5a03c07
+ref table LocalDateTable_68fea4ac-845b-4f6f-a6de-80a09112901f
+ref table Espécialidades
 
 ref cultureInfo pt-BR
 

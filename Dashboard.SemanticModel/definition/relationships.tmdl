@@ -1,20 +1,24 @@
-relationship c5000f25-2066-43af-b269-76a221bc1921
+relationship 38bba6ee-cfdd-4d70-be0c-622b2c620aa5
 	joinOnDateBehavior: datePartOnly
-	fromColumn: dados_completo.DATA_GUIA
-	toColumn: LocalDateTable_6d583c75-466d-4568-9319-918e9306e951.Date
+	fromColumn: database.DATA_GUIA
+	toColumn: LocalDateTable_8600b7d2-30eb-4682-8ce9-9892fd88c47f.Date
 
-relationship 735e0caf-68c2-43d0-9fdf-e1573d848c2c
+relationship 341064b0-901d-4261-8dc0-8b2c6c0b1f4c
 	joinOnDateBehavior: datePartOnly
-	fromColumn: dados_completo.DATA_PROCEDIMENTO
-	toColumn: LocalDateTable_bcbd9da9-e398-4487-b787-5471b0194dbd.Date
+	fromColumn: database.DATA_PROCEDIMENTO
+	toColumn: LocalDateTable_aad2aecc-8fd3-4c9e-b5b6-3c6c0dde4e89.Date
 
-relationship ad883fd2-d654-4148-a642-0eef53fafa07
+relationship 446d6dab-6ef7-4178-af87-ed73b0e1638e
 	joinOnDateBehavior: datePartOnly
-	fromColumn: dados_completo.DATA_DIGITACAO
-	toColumn: LocalDateTable_307b3762-5ce3-4426-b518-cbab0bd33d81.Date
+	fromColumn: database.DATA_DIGITACAO
+	toColumn: LocalDateTable_3b8c1ad3-e7b5-4b0a-b05e-315bb5a03c07.Date
 
-relationship aa6b26ef-ae6e-4b4e-893d-a09c2ba5c298
+relationship 69ed8e39-0f51-40c6-8f22-47494d0bf15a
 	joinOnDateBehavior: datePartOnly
-	fromColumn: dados_completo.EMISSAO_TITULO
-	toColumn: LocalDateTable_4b48a9fc-c0e7-42e4-ac10-81d7fa936708.Date
+	fromColumn: database.EMISSAO_TITULO
+	toColumn: LocalDateTable_68fea4ac-845b-4f6f-a6de-80a09112901f.Date
+
+relationship 3dee61d5-7269-eeb3-c9b9-f0e0053cc959
+	fromColumn: database.COD_ESPECIALIDADE
+	toColumn: Espécialidades.BAQ_CODESP
 

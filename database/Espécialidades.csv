@@ -1,0 +1,139 @@
+﻿BAQ_CODESP;BAQ_DESCRI;BAQ_CODPAD
+003;ENDOCRINOLOGIA E METABOLOGIA                      ;22
+004;GASTROENTEROLOGIA                                 ;22
+005;GERIATRIA                                         ;22
+008;INFECTOLOGIA                                      ;22
+015;NEFROLOGIA                                        ;22
+017;NUTRICAO                                          ;22
+019;ALERGIA E IMUNOLOGIA                              ;22
+020;CARDIOLOGIA                                       ;22
+021;LABORATORIO DE ANATOMIA PATOLOGICA                ;22
+022;ELETROENCEFALOGRAFIA                              ;22
+023;ENDOSCOPIA DIGESTIVA                              ;22
+026;GENETICA MEDICA                                   ;22
+027;HEMOTERAPIA                                       ;22
+028;LABORATORIO DE ANALISES CLINICAS                  ;22
+029;PNEUMOLOGIA                                       ;22
+030;QUIMIOTERAPIA                                     ;22
+031;MEDICINA NUCLEAR                                  ;22
+032;RADIOLOGIA E DIAGNOSTICO POR IMAGEM               ;22
+033;ULTRASSONOGRAFIA                                  ;22
+034;TOMOGRAFIA COMPUTADORIZADA                        ;22
+035;RADIOTERAPIA                                      ;22
+036;RESSONANCIA MAGNETICA                             ;22
+039;ANGIOLOGIA                                        ;22
+040;CIRURGIA CARDIOVASCULAR                           ;22
+041;CIRURGIA DE CABECA E PESCOCO                      ;22
+042;DERMATOLOGIA                                      ;22
+043;CIRURGIA GERAL                                    ;22
+044;CIRURGIA ENDOCRINOLO                              ;22
+045;GINECOLOGIA E OBSTETRICIA                         ;22
+047;MASTOLOGIA                                        ;22
+048;CIRURGIA DA MAO                                   ;22
+049;NEUROCIRURGIA                                     ;22
+050;OFTALMOLOGIA                                      ;22
+051;OTORRINOLARINGOLOGIA                              ;22
+052;ORTOPEDIA E TRAUMATOLOGIA                         ;22
+053;CIRURGIA PEDIATRICA                               ;22
+054;CIRURGIA PLASTICA REPARADORA                      ;22
+055;CIRURGIA TORACICA                                 ;22
+056;UROLOGIA                                          ;22
+102;HEPATOLOGIA                                       ;22
+103;HEMATOLOGIA E HEMOTERAPIA                         ;22
+105;NEUROLOGIA                                        ;22
+106;PEDIATRIA                                         ;22
+108;PSIQUIATRIA                                       ;22
+109;REUMATOLOGIA                                      ;22
+110;NEFROLOGIA PEDIATRICA                             ;22
+115;CLINICA MEDICA                                    ;22
+120;PSICOTERAPIA                                      ;22
+152;GINECOLOGIA ADOLESCENTES                          ;22
+156;ACUPUNTURA                                        ;22
+159;NEONATOLOGIA                                      ;22
+160;ELETRONEUROMIOGRAFIA                              ;22
+162;DENSITOMETRIA OSSEA                               ;22
+163;PNEUMOLOGIA PEDIATRICA                            ;22
+165;TERAPIA OCUPACIONAL                               ;22
+166;CIRURGIA CARDIACA                                 ;22
+168;GASTROENTEROLOGIA PEDIATRICA                      ;22
+169;LITOTRIPSIA EXTRA-CORPOREA                        ;22
+170;ENDOSCOPIA RESPIRATORIA                           ;22
+171;CINTILOGRAFIA                                     ;22
+172;CLINICA PSIQUIATRICA                              ;22
+173;HEMODINAMICA E CARDIOLOGIA INTERVENCIONISTA       ;22
+181;MAMOGRAFIA                                        ;22
+182;REEDUCACAO POSTURAL GLOBAL (RPG)                  ;22
+185;MANOMETRIA ESOFAGEANA                             ;22
+186;DIALISE                                           ;22
+187;CANCEROLOGIA CIRURGICA                            ;22
+188;CIRURGIA DA COLUNA                                ;22
+191;MEDICINA HIPERBARICA                              ;22
+192;POLISSONOGRAFIA                                   ;22
+197;NEUROLOGIA PEDIATRICA                             ;22
+201;FISIOTERAPIA                                      ;22
+202;HOMEOPATIA                                        ;22
+203;COLOPROCTOLOGIA                                   ;22
+204;ECOCARDIOGRAFIA                                   ;22
+206;ERGOMETRIA                                        ;22
+210;ECOGRAFIA VASCULAR COM DOPPLER                    ;22
+212;CANCEROLOGIA CLINICA                              ;22
+217;MEDICINA INTENSIVA                                ;22
+219;FONOAUDIOLOGIA                                    ;22
+226;HEMODIALISE                                       ;22
+229;ANDROLOGIA                                        ;22
+231;UNIDADE DE TERAPIA INTENSIVA                      ;22
+243;ELETROCARDIOGRAMA                                 ;22
+246;ENDOCRINOLOGIA PEDIATRICA                         ;22
+247;CARDIOLOGIA PEDIATRICA                            ;22
+249;CIRURGIA VASCULAR                                 ;22
+252;GINECOLOGIA                                       ;22
+254;COLANGIOGRAFIA                                    ;22
+258;CIRURGIA DO APARELHO DIGESTIVO                    ;22
+264;MEDICINA FISICA E REABILITACAO (FISIATRIA)        ;22
+266;HEMATOLOGIA E HEMOTERAPIA PEDIATRICA              ;22
+267;HOLTER                                            ;22
+268;UROLOGIA PEDIATRICA                               ;22
+271;COLONOSCOPIA                                      ;22
+272;MAPA                                              ;22
+273;NUTROLOGIA PEDIATRICA                             ;22
+279;ECODOPPLER                                        ;22
+280;TOMOGRAFIA DE COERENCIA OPTICA                    ;22
+999;CBO DESCONHECIDO OU NAO INFORMADO PELO SOLICITANTE;22
+281;ANESTESIOLOGIA                                    ;22
+209;HOSPITAIS E CLINICAS C INTERNACAO                 ;22
+275;BUCO MAXILO FACIAL                                ;22
+199;NUTROLOGIA                                        ;  
+292;MEDICO GENERALISTA                                ;  
+293;ORTOPTISTA                                        ;  
+063;REMOCAO                                           ;18
+294;ENFERMAGEM                                        ;22
+237;VACINA                                            ;00
+295;INSTRUMENTADOR CIRURGICO                          ;  
+296;AUXILIAR DE ENFERMAGEM                            ;  
+297;ENDOSCOPIA                                        ;  
+298;ALERGIA E IMUNOLOGIA PEDIATRICA                   ;22
+299;REUMATOLOGIA PEDIATRICA                           ;22
+300;MATERNIDADE                                       ;  
+301;RAIO X                                            ;  
+302;LABORATORIO DE GENETICA                           ;  
+303;INFECTOLOGIA PEDIATRICA                           ;  
+304;PEDIATRIA - PRONTO SOCORRO                        ;  
+305;ESCLEROTERAPIA                                    ;98
+306;ULTRASSONOGRAFIA EM GINECOLOGIA E OBSTETRICIA     ;22
+307;HEMOTERAPIA E HEMATOLOGIA PEDIATRICA              ;  
+308;URODINAMICA                                       ;  
+309;DOR                                               ;  
+310;PEDAGOGIA                                         ;22
+311;PSICOGERIATRA                                     ;22
+312;MEDICINA DE FAMILIA E COMUNIDADE                  ;22
+313;MEDICINA DO SONO                                  ;  
+314;RADIOLOGIA INTERVENCIONISTA E ANGIORRADIOLOGIA    ;  
+315;FISIOTERAPIA PELVICA                              ;22
+316;PRONTO ATENDIMENTO                                ;  
+317;UROLOGIA - PRONTO ATENDIMENTO                     ;  
+318;HANSENOLOGIA                                      ;  
+319;TERAPIA ABA                                       ;01
+320;NEURORRADIOLOGIA                                  ;22
+321;OFTALMOLOGIA - PRONTO ATENDIMENTO                 ;  
+322;TERAPIA DIR/FLOORTIME                             ;  
+323;PSICOPEDAGOGIA                                    ;  

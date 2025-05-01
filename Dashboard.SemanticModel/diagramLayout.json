@@ -13,8 +13,8 @@
             "x": 0,
             "y": 0
           },
-          "nodeIndex": "Consulta1",
-          "nodeLineageTag": "345aa7ee-4a49-4e19-b941-142c494ebf05",
+          "nodeIndex": "database",
+          "nodeLineageTag": "695d9304-9cda-4c5e-8836-2492236fa9ce",
           "size": {
             "height": 300,
             "width": 234
@@ -23,13 +23,13 @@
         },
         {
           "location": {
-            "x": 284,
-            "y": 0
+            "x": 563,
+            "y": 82
           },
-          "nodeIndex": "dados_completo",
-          "nodeLineageTag": "0b84cb9a-4e7b-4abb-9ef3-80631cddc6fa",
+          "nodeIndex": "Espécialidades",
+          "nodeLineageTag": "0b6f5f29-85f1-4cf6-9ea2-9d540809205d",
           "size": {
-            "height": 300,
+            "height": 152,
             "width": 234
           },
           "zIndex": 0

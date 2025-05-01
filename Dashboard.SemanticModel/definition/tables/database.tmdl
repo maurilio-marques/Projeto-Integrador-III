@@ -1,0 +1,402 @@
+table database
+	lineageTag: 695d9304-9cda-4c5e-8836-2492236fa9ce
+
+	column 'Nome da Origem'
+		dataType: string
+		lineageTag: b27ac3ba-7e66-413d-be85-e07bc5001a3c
+		summarizeBy: none
+		sourceColumn: Nome da Origem
+
+		annotation SummarizationSetBy = Automatic
+
+	column MATRICULA
+		dataType: int64
+		formatString: 0
+		lineageTag: 7f9a4a51-ec1d-4706-af0e-46c2405c6f16
+		summarizeBy: sum
+		sourceColumn: MATRICULA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PROCESSO
+		dataType: int64
+		formatString: 0
+		lineageTag: 713a3bf7-7136-4964-822f-c0b2afeb79c1
+		summarizeBy: sum
+		sourceColumn: PROCESSO
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMERO
+		dataType: int64
+		formatString: 0
+		lineageTag: 0bcf94e6-60de-40ca-9422-7dadd8b165e6
+		summarizeBy: sum
+		sourceColumn: NUMERO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ITEM
+		dataType: int64
+		formatString: 0
+		lineageTag: dead29f5-87b3-4212-9080-150991ae499f
+		summarizeBy: sum
+		sourceColumn: ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column SITUACAO
+		dataType: string
+		lineageTag: c55b4644-00dd-4cfa-818e-ab9752fbbfc2
+		summarizeBy: none
+		sourceColumn: SITUACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column VENCIMENTO
+		dataType: int64
+		formatString: 0
+		lineageTag: 11a37f54-3664-4243-9fc1-2d0f5d325f00
+		summarizeBy: sum
+		sourceColumn: VENCIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SENHA
+		dataType: int64
+		formatString: 0
+		lineageTag: c03442d0-130b-4153-8bb6-72b5edfac57f
+		summarizeBy: sum
+		sourceColumn: SENHA
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANO_SENHA
+		dataType: int64
+		formatString: 0
+		lineageTag: b017401d-e62a-4767-8800-6c7d5eebf36c
+		summarizeBy: sum
+		sourceColumn: ANO_SENHA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MATRICULA_ANTIGA
+		dataType: int64
+		formatString: 0
+		lineageTag: b87e9f75-9b65-4f68-98e5-5b8bfa07526f
+		summarizeBy: sum
+		sourceColumn: MATRICULA_ANTIGA
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_USUARIO
+		dataType: int64
+		formatString: 0
+		lineageTag: ef5fd848-06ca-45c9-b415-dae4b7943a92
+		summarizeBy: sum
+		sourceColumn: COD_USUARIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column COD_ESPECIALIDADE
+		dataType: int64
+		formatString: 0
+		lineageTag: 2da4d51a-3944-46e0-9c45-991cc9014fad
+		summarizeBy: none
+		sourceColumn: COD_ESPECIALIDADE
+
+		annotation SummarizationSetBy = Automatic
+
+	column MUNICIPIO
+		dataType: string
+		lineageTag: cdfa48f6-d1a3-4fdb-931c-bd6f52d24b00
+		summarizeBy: none
+		sourceColumn: MUNICIPIO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_GUIA
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d3a97935-dd1c-49e6-b0e3-bb578bb48bce
+		summarizeBy: none
+		sourceColumn: DATA_GUIA
+
+		variation Variation
+			isDefault
+			relationship: 38bba6ee-cfdd-4d70-be0c-622b2c620aa5
+			defaultHierarchy: LocalDateTable_8600b7d2-30eb-4682-8ce9-9892fd88c47f.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ESTADO
+		dataType: string
+		lineageTag: b4da311b-47c0-454f-b330-04153d1a2fbf
+		summarizeBy: none
+		sourceColumn: ESTADO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_PROCEDIMENTO
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: b5ebb1a9-8b02-450c-b14a-1762b0ce4f40
+		summarizeBy: none
+		sourceColumn: DATA_PROCEDIMENTO
+
+		variation Variation
+			isDefault
+			relationship: 341064b0-901d-4261-8dc0-8b2c6c0b1f4c
+			defaultHierarchy: LocalDateTable_aad2aecc-8fd3-4c9e-b5b6-3c6c0dde4e89.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TABELA
+		dataType: int64
+		formatString: 0
+		lineageTag: 69bf6421-d3e7-4854-af3b-3edca9524eb1
+		summarizeBy: sum
+		sourceColumn: TABELA
+
+		annotation SummarizationSetBy = Automatic
+
+	column CODIGO_PROCEDIMENTO
+		dataType: int64
+		formatString: 0
+		lineageTag: 41dd8b80-8887-48c3-b2db-2b14ca6401bb
+		summarizeBy: sum
+		sourceColumn: CODIGO_PROCEDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DESC_PROCEDIMENTO
+		dataType: string
+		lineageTag: 532aec66-cffc-44fc-a2b9-5fc935663020
+		summarizeBy: none
+		sourceColumn: DESC_PROCEDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTD_ITEM
+		dataType: int64
+		formatString: 0
+		lineageTag: 4320e90c-6324-4e2c-bf17-0b20847adab0
+		summarizeBy: sum
+		sourceColumn: QTD_ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+	column VAL_INFORMADO
+		dataType: double
+		lineageTag: 59296a44-ac6c-447e-8982-1dd49230c37e
+		summarizeBy: sum
+		sourceColumn: VAL_INFORMADO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_GLOSA
+		dataType: double
+		lineageTag: 3d193a8d-a216-4649-ba85-0b72a590a6e4
+		summarizeBy: sum
+		sourceColumn: VAL_GLOSA
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_ITEM
+		dataType: double
+		lineageTag: 3a24cc70-3b7e-4b5a-bc31-dd48ff9c8286
+		summarizeBy: sum
+		sourceColumn: VAL_ITEM
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VAL_COPARTICIPACAO
+		dataType: double
+		lineageTag: 9a22751e-a3ec-418b-b811-f7980dffba38
+		summarizeBy: sum
+		sourceColumn: VAL_COPARTICIPACAO
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SITUACAO_GUIA
+		dataType: int64
+		formatString: 0
+		lineageTag: f7d3fad4-a6a8-4015-a892-b31a3b9c5e30
+		summarizeBy: sum
+		sourceColumn: SITUACAO_GUIA
+
+		annotation SummarizationSetBy = Automatic
+
+	column FASE
+		dataType: int64
+		formatString: 0
+		lineageTag: 7932be93-2660-4104-a5b5-e64b173152bb
+		summarizeBy: sum
+		sourceColumn: FASE
+
+		annotation SummarizationSetBy = Automatic
+
+	column DATA_DIGITACAO
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 4cac583b-ad70-46f7-bc00-576424595b8c
+		summarizeBy: none
+		sourceColumn: DATA_DIGITACAO
+
+		variation Variation
+			isDefault
+			relationship: 446d6dab-6ef7-4178-af87-ed73b0e1638e
+			defaultHierarchy: LocalDateTable_3b8c1ad3-e7b5-4b0a-b05e-315bb5a03c07.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column TIPO_ATENDIMENTO
+		dataType: string
+		lineageTag: 6e82c63b-74b7-4dba-a07a-696f2e4b06eb
+		summarizeBy: none
+		sourceColumn: TIPO_ATENDIMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column CID
+		dataType: string
+		lineageTag: 81ded102-12f9-4ad0-9c94-7fdf6c9e3b70
+		summarizeBy: none
+		sourceColumn: CID
+
+		annotation SummarizationSetBy = Automatic
+
+	column INDCLI
+		dataType: string
+		lineageTag: 92d69491-c43a-4a70-911e-2ea22577e8f2
+		summarizeBy: none
+		sourceColumn: INDCLI
+
+		annotation SummarizationSetBy = Automatic
+
+	column NUMPIMTEL
+		dataType: string
+		lineageTag: 1cc31927-cc0d-44db-ac1c-4d3aefca50ef
+		summarizeBy: none
+		sourceColumn: NUMPIMTEL
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOTE_PAGAMENTO
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d3026d7-e0f4-4c9c-83e8-6d9068782a91
+		summarizeBy: sum
+		sourceColumn: LOTE_PAGAMENTO
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOCAL
+		dataType: int64
+		formatString: 0
+		lineageTag: b05a11b9-fbd1-45c2-9f31-3739b0db27d4
+		summarizeBy: sum
+		sourceColumn: LOCAL
+
+		annotation SummarizationSetBy = Automatic
+
+	column EMISSAO_TITULO
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9b1d305f-d83a-4ac4-bc18-c9c148aa31ac
+		summarizeBy: none
+		sourceColumn: EMISSAO_TITULO
+
+		variation Variation
+			isDefault
+			relationship: 69ed8e39-0f51-40c6-8f22-47494d0bf15a
+			defaultHierarchy: LocalDateTable_68fea4ac-845b-4f6f-a6de-80a09112901f.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DESPESA_CONTABIL
+		dataType: string
+		lineageTag: 90260913-d0cf-4b92-8e26-7dcd05151067
+		summarizeBy: none
+		sourceColumn: DESPESA_CONTABIL
+
+		annotation SummarizationSetBy = Automatic
+
+	column PATROCINADORA
+		dataType: int64
+		formatString: 0
+		lineageTag: d082c760-6534-4fc8-a34f-2fb773c4c025
+		summarizeBy: sum
+		sourceColumn: PATROCINADORA
+
+		annotation SummarizationSetBy = Automatic
+
+	column INTERNACAO
+		dataType: string
+		lineageTag: 1a4fb4b1-4a62-4885-a786-cc1dd56aba36
+		summarizeBy: none
+		sourceColumn: INTERNACAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column ALTA
+		dataType: string
+		lineageTag: 1302112d-e517-4378-ba4b-f85886efe005
+		summarizeBy: none
+		sourceColumn: ALTA
+
+		annotation SummarizationSetBy = Automatic
+
+	column PLANO
+		dataType: string
+		lineageTag: 47d11cf8-a020-4c9f-9019-155c5fef0549
+		summarizeBy: none
+		sourceColumn: PLANO
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUBCONTRATO
+		dataType: int64
+		formatString: 0
+		lineageTag: 808d7233-8cf1-4ee8-a057-7172bc4f2306
+		summarizeBy: sum
+		sourceColumn: SUBCONTRATO
+
+		annotation SummarizationSetBy = Automatic
+
+	partition database = m
+		mode: import
+		source =
+				let
+				    Fonte = Folder.Files("C:\Users\Maurilio\Desktop\Projeto-Integrador-III\database"),
+				    #"Arquivos Ocultos Filtrados1" = Table.SelectRows(Fonte, each [Attributes]?[Hidden]? <> true),
+				    #"Invocar Função Personalizada1" = Table.AddColumn(#"Arquivos Ocultos Filtrados1", "Transformar Arquivo", each #"Transformar Arquivo"([Content])),
+				    #"Colunas Renomeadas1" = Table.RenameColumns(#"Invocar Função Personalizada1", {"Name", "Nome da Origem"}),
+				    #"Outras Colunas Removidas1" = Table.SelectColumns(#"Colunas Renomeadas1", {"Nome da Origem", "Transformar Arquivo"}),
+				    #"Coluna de Tabela Expandida1" = Table.ExpandTableColumn(#"Outras Colunas Removidas1", "Transformar Arquivo", Table.ColumnNames(#"Transformar Arquivo"(#"Arquivo de Amostra"))),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Coluna de Tabela Expandida1",{{"Nome da Origem", type text}, {"Column1", Int64.Type}, {"Column2", Int64.Type}, {"Column3", Int64.Type}, {"Column4", Int64.Type}, {"Column5", type text}, {"Column6", Int64.Type}, {"Column7", Int64.Type}, {"Column8", Int64.Type}, {"Column9", Int64.Type}, {"Column10", Int64.Type}, {"Column11", Int64.Type}, {"Column12", type text}, {"Column13", type date}, {"Column14", type text}, {"Column15", type date}, {"Column16", Int64.Type}, {"Column17", Int64.Type}, {"Column18", type text}, {"Column19", Int64.Type}, {"Column20", type number}, {"Column21", type number}, {"Column22", type number}, {"Column23", type number}, {"Column24", Int64.Type}, {"Column25", Int64.Type}, {"Column26", type date}, {"Column27", type text}, {"Column28", type any}, {"Column29", type text}, {"Column30", type text}, {"Column31", Int64.Type}, {"Column32", Int64.Type}, {"Column33", type date}, {"Column34", type text}, {"Column35", Int64.Type}, {"Column36", type any}, {"Column37", type any}, {"Column38", type text}, {"Column39", Int64.Type}}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Tipo Alterado", each true),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Linhas Filtradas",{{"Column1", "MATRICULA"}, {"Column2", "PROCESSO"}, {"Column3", "NUMERO"}, {"Column4", "ITEM"}, {"Column5", "SITUACAO"}, {"Column6", "VENCIMENTO"}, {"Column7", "SENHA"}, {"Column8", "ANO_SENHA"}, {"Column9", "MATRICULA_ANTIGA"}, {"Column10", "COD_USUARIO"}, {"Column11", "COD_ESPECIALIDADE"}, {"Column12", "MUNICIPIO"}, {"Column13", "DATA_GUIA"}, {"Column14", "ESTADO"}, {"Column15", "DATA_PROCEDIMENTO"}, {"Column16", "TABELA"}, {"Column17", "CODIGO_PROCEDIMENTO"}, {"Column18", "DESC_PROCEDIMENTO"}, {"Column19", "QTD_ITEM"}, {"Column20", "VAL_INFORMADO"}, {"Column21", "VAL_GLOSA"}, {"Column22", "VAL_ITEM"}, {"Column23", "VAL_COPARTICIPACAO"}, {"Column24", "SITUACAO_GUIA"}, {"Column25", "FASE"}, {"Column26", "DATA_DIGITACAO"}, {"Column27", "TIPO_ATENDIMENTO"}, {"Column28", "CID"}, {"Column29", "INDCLI"}, {"Column30", "NUMPIMTEL"}, {"Column31", "LOTE_PAGAMENTO"}, {"Column32", "LOCAL"}, {"Column33", "EMISSAO_TITULO"}, {"Column34", "DESPESA_CONTABIL"}, {"Column35", "PATROCINADORA"}, {"Column36", "INTERNACAO"}, {"Column37", "ALTA"}, {"Column38", "PLANO"}, {"Column39", "SUBCONTRATO"}})
+				in
+				    #"Colunas Renomeadas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

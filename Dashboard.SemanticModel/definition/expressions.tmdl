@@ -1,6 +1,55 @@
-expression 'Erros em dados_completo' =
+expression 'Arquivo de Amostra' =
 		let
-		Fonte = dados_completo,
+		    Fonte = Folder.Files("C:\Users\Maurilio\Desktop\Projeto-Integrador-III\database"),
+		    Navegação1 = Fonte{0}[Content]
+		in
+		    Navegação1
+	lineageTag: dc441223-fafb-49b2-802b-0be0a91547ad
+	queryGroup: 'Transformar Arquivo de database\Consultas Auxiliares'
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Binary
+
+expression Parâmetro1 = #"Arquivo de Amostra" meta [IsParameterQuery=true, BinaryIdentifier=#"Arquivo de Amostra", Type="Binary", IsParameterQueryRequired=true]
+	lineageTag: dea07d0c-00a8-4642-aa73-924c756a9c19
+	queryGroup: 'Transformar Arquivo de database\Consultas Auxiliares'
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Binary
+
+expression 'Transformar o Arquivo de Exemplo' =
+		let
+		    Fonte = Csv.Document(Parâmetro1,[Delimiter=";", Columns=39, Encoding=65001, QuoteStyle=QuoteStyle.None])
+		in
+		    Fonte
+	lineageTag: fe931aa8-e478-4f03-9d03-85768e08a0c5
+	queryGroup: 'Transformar Arquivo de database'
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
+expression 'Transformar Arquivo' =
+		let
+		    Fonte = (Parâmetro1) => let
+		        Fonte = Csv.Document(Parâmetro1,[Delimiter=";", Columns=39, Encoding=65001, QuoteStyle=QuoteStyle.None])
+		    in
+		        Fonte
+		in
+		    Fonte
+	mAttributes: [ FunctionQueryBinding = "{""exemplarFormulaName"":""Transformar o Arquivo de Exemplo""}" ]
+	lineageTag: 503c7c19-6794-408b-aa3c-16e8e3811c14
+	queryGroup: 'Transformar Arquivo de database\Consultas Auxiliares'
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Function
+
+expression 'Erros em database' =
+		let
+		Fonte = database,
 		  #"Incompatibilidades de Tipo Detectadas" = let
 		    tableWithOnlyPrimitiveTypes = Table.SelectColumns(Fonte, Table.ColumnsOfType(Fonte, {type nullable number, type nullable text, type nullable logical, type nullable date, type nullable datetime, type nullable datetimezone, type nullable time, type nullable duration})),
 		    recordTypeFields = Type.RecordFields(Type.TableRow(Value.Type(tableWithOnlyPrimitiveTypes))),
@@ -10,12 +59,12 @@ expression 'Erros em dados_completo' =
 		in
 		    Table.TransformColumns(Fonte, pairs),
 		  #"Índice Adicionado" = Table.AddIndexColumn(#"Incompatibilidades de Tipo Detectadas", "Número da Linha" ,1),
-		  #"Erros Mantidos" = Table.SelectRowsWithErrors(#"Índice Adicionado", {"MATRICULA", "PROCESSO", "NUMERO", "ITEM", "SITUACAO", "VENCIMENTO", "SENHA", "ANO_SENHA", "MATRICULA_ANTIGA", "BENEFICIARIO", "COD_USUARIO", "CODIGO_CREDENCIADO", "CODIGO_ESPECIALIDADE", "MEDICO_SOLICITANTE", "MUNICIPIO", "DATA_GUIA", "ESTADO", "DATA_PROCEDIMENTO", "TABELA", "CODIGO_PROCEDIMENTO", "DESC_PROCEDIMENTO", "QTS_ITEM", "VAL_INFORMADO", "VAL_GLOSA", "VAL_ITEM", "VAL_COPARTICIPACAO", "SISTUACAO_GUIA", "FASE", "DATA_DIGITACAO", "TIPO_ATENDIMENTO", "CID", "INDCLI", "NUMPIMTEL", "CPF_CNPJ", "NOME_CREDENCIADO", "RAZAO_SOCIAL", "LOTE_PAGAMENTO", "LOCAL_DIGITACAO", "EMISSAO_TITULO", "DESPESA_CONTABIL", "PATROCINADORA", "INTERNACAO", "ALTA", "PLANO", "SUBCONTRATO"}),
-		  #"Colunas Reordenadas" = Table.ReorderColumns(#"Erros Mantidos", {"Número da Linha", "MATRICULA", "PROCESSO", "NUMERO", "ITEM", "SITUACAO", "VENCIMENTO", "SENHA", "ANO_SENHA", "MATRICULA_ANTIGA", "BENEFICIARIO", "COD_USUARIO", "CODIGO_CREDENCIADO", "CODIGO_ESPECIALIDADE", "MEDICO_SOLICITANTE", "MUNICIPIO", "DATA_GUIA", "ESTADO", "DATA_PROCEDIMENTO", "TABELA", "CODIGO_PROCEDIMENTO", "DESC_PROCEDIMENTO", "QTS_ITEM", "VAL_INFORMADO", "VAL_GLOSA", "VAL_ITEM", "VAL_COPARTICIPACAO", "SISTUACAO_GUIA", "FASE", "DATA_DIGITACAO", "TIPO_ATENDIMENTO", "CID", "INDCLI", "NUMPIMTEL", "CPF_CNPJ", "NOME_CREDENCIADO", "RAZAO_SOCIAL", "LOTE_PAGAMENTO", "LOCAL_DIGITACAO", "EMISSAO_TITULO", "DESPESA_CONTABIL", "PATROCINADORA", "INTERNACAO", "ALTA", "PLANO", "SUBCONTRATO"})
+		  #"Erros Mantidos" = Table.SelectRowsWithErrors(#"Índice Adicionado", {"Nome da Origem", "MATRICULA", "PROCESSO", "NUMERO", "ITEM", "SITUACAO", "VENCIMENTO", "SENHA", "ANO_SENHA", "MATRICULA_ANTIGA", "COD_USUARIO", "COD_ESPECIALIDADE", "MUNICIPIO", "DATA_GUIA", "ESTADO", "DATA_PROCEDIMENTO", "TABELA", "CODIGO_PROCEDIMENTO", "DESC_PROCEDIMENTO", "QTD_ITEM", "VAL_INFORMADO", "VAL_GLOSA", "VAL_ITEM", "VAL_COPARTICIPACAO", "SITUACAO_GUIA", "FASE", "DATA_DIGITACAO", "TIPO_ATENDIMENTO", "CID", "INDCLI", "NUMPIMTEL", "LOTE_PAGAMENTO", "LOCAL", "EMISSAO_TITULO", "DESPESA_CONTABIL", "PATROCINADORA", "INTERNACAO", "ALTA", "PLANO", "SUBCONTRATO"}),
+		  #"Colunas Reordenadas" = Table.ReorderColumns(#"Erros Mantidos", {"Número da Linha", "Nome da Origem", "MATRICULA", "PROCESSO", "NUMERO", "ITEM", "SITUACAO", "VENCIMENTO", "SENHA", "ANO_SENHA", "MATRICULA_ANTIGA", "COD_USUARIO", "COD_ESPECIALIDADE", "MUNICIPIO", "DATA_GUIA", "ESTADO", "DATA_PROCEDIMENTO", "TABELA", "CODIGO_PROCEDIMENTO", "DESC_PROCEDIMENTO", "QTD_ITEM", "VAL_INFORMADO", "VAL_GLOSA", "VAL_ITEM", "VAL_COPARTICIPACAO", "SITUACAO_GUIA", "FASE", "DATA_DIGITACAO", "TIPO_ATENDIMENTO", "CID", "INDCLI", "NUMPIMTEL", "LOTE_PAGAMENTO", "LOCAL", "EMISSAO_TITULO", "DESPESA_CONTABIL", "PATROCINADORA", "INTERNACAO", "ALTA", "PLANO", "SUBCONTRATO"})
 		in
 		  #"Colunas Reordenadas"
-	lineageTag: b361d883-7bb6-43a7-90c9-23bf37861d93
-	queryGroup: 'Erros na Consulta - 29/04/2025 18:26:24'
+	lineageTag: 654ce89a-83a7-4767-b86e-bb9af776117f
+	queryGroup: 'Erros na Consulta - 01/05/2025 03:19:54'
 
 	annotation PBI_NavigationStepName = Navegação
 
