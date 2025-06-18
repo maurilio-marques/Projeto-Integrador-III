@@ -1,0 +1,44 @@
+table cities
+	lineageTag: ef5a43fd-7b3c-4140-b6c6-0d84ce56490a
+
+	column id
+		dataType: int64
+		formatString: 0
+		lineageTag: ee831086-a9b1-43f5-9147-6706bd459e24
+		summarizeBy: sum
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column state_id
+		dataType: int64
+		formatString: 0
+		lineageTag: d5ef51a4-4198-4538-b5a3-1c872efd07a4
+		summarizeBy: none
+		sourceColumn: state_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: 30aebad4-5d45-402a-ab58-dd0a9073340c
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition cities = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\Aninh\OneDrive\Área de Trabalho\Projeto Integrador\Projeto-Integrador-III-main (1)\Projeto-Integrador-III-main\cities.csv"),[Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"id", Int64.Type}, {"state_id", Int64.Type}, {"name", type text}}),
+				    #"Duplicatas Removidas" = Table.Distinct(#"Tipo Alterado", {"name"})
+				in
+				    #"Duplicatas Removidas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

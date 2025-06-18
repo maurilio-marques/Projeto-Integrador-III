@@ -1,0 +1,42 @@
+table states
+	lineageTag: 1e6a3796-eddf-4e1c-919d-2e672697bd5a
+
+	column id
+		dataType: int64
+		formatString: 0
+		lineageTag: 9935f11e-a770-4091-a220-7877f62628a1
+		summarizeBy: none
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: c23c4477-7c58-43e2-b592-f75bd16172dc
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column abbr
+		dataType: string
+		lineageTag: a5bb45a1-30e4-4d2d-a291-15a7e84505c1
+		summarizeBy: none
+		sourceColumn: abbr
+
+		annotation SummarizationSetBy = Automatic
+
+	partition states = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\Aninh\OneDrive\Área de Trabalho\Projeto Integrador\Projeto-Integrador-III-main (1)\Projeto-Integrador-III-main\states.csv"),[Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"id", Int64.Type}, {"name", type text}, {"abbr", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

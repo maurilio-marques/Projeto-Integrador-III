@@ -2,8 +2,6791 @@ cultureInfo pt-BR
 
 	linguisticMetadata =
 			{
-			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "database": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "database": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "folder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "databank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "file": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalogue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "catalog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "store": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "archive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "database.nome_da_origem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "Nome da Origem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome da origem": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.matricula": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "MATRICULA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "matricula": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.processo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "PROCESSO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "processo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.numero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "NUMERO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.item": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "ITEM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "item": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "article": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "object": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "token": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "database.situacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "SITUACAO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "situacao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.vencimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "VENCIMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vencimento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.senha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "SENHA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "senha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.ano_senha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "ANO_SENHA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano senha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ANO_SENHA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.matricula_antiga": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "MATRICULA_ANTIGA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "matricula antiga": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MATRICULA_ANTIGA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.cod_usuario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "COD_USUARIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cod usuario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_USUARIO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.cod_especialidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "COD_ESPECIALIDADE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "cod especialidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "COD_ESPECIALIDADE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.municipio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "MUNICIPIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "municipio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_guia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "DATA_GUIA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data guia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DATA_GUIA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information guia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact guia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info guia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic guia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document guia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure guia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record guia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "database.data_guia.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_GUIA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_guia.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_GUIA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data guia ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information guia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact guia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info guia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic guia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document guia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure guia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record guia ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_guia.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_GUIA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data guia trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information guia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact guia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info guia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic guia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document guia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure guia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record guia trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_guia.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_GUIA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data guia mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information guia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact guia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info guia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic guia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document guia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure guia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record guia mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_guia.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_GUIA",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data guia dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information guia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact guia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info guia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic guia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document guia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure guia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record guia dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.estado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "ESTADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_procedimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "DATA_PROCEDIMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data procedimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DATA_PROCEDIMENTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information procedimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact procedimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info procedimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic procedimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document procedimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure procedimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record procedimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "database.data_procedimento.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_PROCEDIMENTO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_procedimento.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_PROCEDIMENTO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data procedimento ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information procedimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact procedimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info procedimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic procedimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document procedimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure procedimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record procedimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_procedimento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_PROCEDIMENTO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data procedimento trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information procedimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact procedimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info procedimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic procedimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document procedimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure procedimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record procedimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_procedimento.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_PROCEDIMENTO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data procedimento mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information procedimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact procedimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info procedimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic procedimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document procedimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure procedimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record procedimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_procedimento.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_PROCEDIMENTO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data procedimento dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information procedimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact procedimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info procedimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic procedimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document procedimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure procedimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record procedimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.tabela": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "TABELA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tabela": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.codigo_procedimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "CODIGO_PROCEDIMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo procedimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CODIGO_PROCEDIMENTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.desc_procedimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "DESC_PROCEDIMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desc procedimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DESC_PROCEDIMENTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "description procedimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "database.qtd_item": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "QTD_ITEM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd item": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "QTD_ITEM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "qtd product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "qtd element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "qtd entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "qtd article": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "qtd object": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "qtd piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "qtd token": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "database.val_informado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "VAL_INFORMADO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "val informado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VAL_INFORMADO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.val_glosa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "VAL_GLOSA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "val glosa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VAL_GLOSA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.val_item": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "VAL_ITEM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "val item": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VAL_ITEM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "val product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "val element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "val entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "val article": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "val object": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "val piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "val token": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "database.val_coparticipacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "VAL_COPARTICIPACAO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "val coparticipacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VAL_COPARTICIPACAO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.situacao_guia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "SITUACAO_GUIA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "situacao guia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SITUACAO_GUIA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.fase": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "FASE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fase": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_digitacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "DATA_DIGITACAO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data digitacao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DATA_DIGITACAO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information digitacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact digitacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info digitacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic digitacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document digitacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure digitacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record digitacao": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "database.data_digitacao.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_DIGITACAO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_digitacao.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_DIGITACAO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data digitacao ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information digitacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact digitacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info digitacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic digitacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document digitacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure digitacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record digitacao ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_digitacao.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_DIGITACAO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data digitacao trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information digitacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact digitacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info digitacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic digitacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document digitacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure digitacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record digitacao trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_digitacao.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_DIGITACAO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data digitacao mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information digitacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact digitacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info digitacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic digitacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document digitacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure digitacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record digitacao mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.data_digitacao.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "DATA_DIGITACAO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data digitacao dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information digitacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact digitacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info digitacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic digitacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document digitacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure digitacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record digitacao dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "database.tipo_atendimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "TIPO_ATENDIMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo atendimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TIPO_ATENDIMENTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.cid": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "CID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cid": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.indcli": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "INDCLI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indcli": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.numpimtel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "NUMPIMTEL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numpimtel": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.lote_pagamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "LOTE_PAGAMENTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lote pagamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "LOTE_PAGAMENTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.local": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "LOCAL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "local": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "native": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "resident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "home-grown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "narrow": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "database.emissao_titulo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "EMISSAO_TITULO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "emissao titulo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EMISSAO_TITULO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "database.emissao_titulo.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "EMISSAO_TITULO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "database.emissao_titulo.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "EMISSAO_TITULO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "emissao titulo ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.emissao_titulo.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "EMISSAO_TITULO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "emissao titulo trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.emissao_titulo.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "EMISSAO_TITULO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "emissao titulo mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.emissao_titulo.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "VariationSource": "EMISSAO_TITULO",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "emissao titulo dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.despesa_contabil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "DESPESA_CONTABIL"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "despesa contabil": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DESPESA_CONTABIL": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.patrocinadora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "PATROCINADORA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patrocinadora": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.internacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "INTERNACAO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "internacao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.alta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "ALTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.plano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "PLANO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "plano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.subcontrato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "SUBCONTRATO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subcontrato": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "database.estado_certo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "EstadoCerto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado certo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EstadoCerto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "database.estado_certo_ABV": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "database",
+			          "ConceptualProperty": "EstadoCertoABV"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "estado certo ABV": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EstadoCertoABV": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "espécialidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Espécialidades"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "espécialidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "espécialidade.baq_codesp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Espécialidades",
+			          "ConceptualProperty": "BAQ_CODESP"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "baq codesp": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BAQ_CODESP": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "espécialidade.baq_descri": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Espécialidades",
+			          "ConceptualProperty": "BAQ_DESCRI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "baq descri": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BAQ_DESCRI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Especialidade": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "espécialidade.baq_codpad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Espécialidades",
+			          "ConceptualProperty": "BAQ_CODPAD"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "baq codpad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BAQ_CODPAD": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cities"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "city.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cities",
+			          "ConceptualProperty": "id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "city.state_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cities",
+			          "ConceptualProperty": "state_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "state id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "state_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "state identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "state identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "state identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "state credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "location id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "province id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "territory id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "nation id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "country id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "city.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cities",
+			          "ConceptualProperty": "name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "state.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "states",
+			          "ConceptualProperty": "id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "state.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "states",
+			          "ConceptualProperty": "name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "state.abbr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "states",
+			          "ConceptualProperty": "abbr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "abbr": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "database_emissao_titulo_hierarquia_de_data_has_database_emissao_titulo_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.emissao_titulo.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.hierarquia_de_data"
+			          }
+			        },
+			        "database.emissao_titulo.mê": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "database_emissao_titulo_hierarquia_de_data_has_database_emissao_titulo_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.emissao_titulo.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.hierarquia_de_data"
+			          }
+			        },
+			        "database.emissao_titulo.trimestre": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "database_emissao_titulo_hierarquia_de_data_has_database_emissao_titulo_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.emissao_titulo.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.hierarquia_de_data"
+			          }
+			        },
+			        "database.emissao_titulo.ano": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "database_emissao_titulo_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.emissao_titulo": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo"
+			          }
+			        },
+			        "database.emissao_titulo.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "emissao_titulos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "database_data_digitacao_mê_has_database_data_digitacao_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_digitacao.mê": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.mê"
+			          }
+			        },
+			        "database.data_digitacao.dia": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.mê"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.dia"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_digitacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    },
+			    "database_data_digitacao_trimestre_has_database_data_digitacao_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_digitacao.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.trimestre"
+			          }
+			        },
+			        "database.data_digitacao.mê": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.trimestre"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.mê"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_digitacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "database_data_digitacao_ano_has_database_data_digitacao_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_digitacao.ano": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.ano"
+			          }
+			        },
+			        "database.data_digitacao.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.ano"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.trimestre"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_digitacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "database_data_digitacao_hierarquia_de_data_has_database_data_digitacao_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_digitacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_digitacao.dia": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "database_data_digitacao_hierarquia_de_data_has_database_data_digitacao_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_digitacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_digitacao.mê": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "database_data_digitacao_hierarquia_de_data_has_database_data_digitacao_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_digitacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_digitacao.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "database_data_digitacao_hierarquia_de_data_has_database_data_digitacao_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_digitacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_digitacao.ano": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "database_data_digitacao_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_digitacao": {
+			          "Target": {
+			            "Entity": "database.data_digitacao"
+			          }
+			        },
+			        "database.data_digitacao.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_digitacao.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_digitacao"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_digitacaos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "database_data_procedimento_mê_has_database_data_procedimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_procedimento.mê": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.mê"
+			          }
+			        },
+			        "database.data_procedimento.dia": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.mê"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.dia"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_procedimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "database_data_procedimento_trimestre_has_database_data_procedimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_procedimento.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.trimestre"
+			          }
+			        },
+			        "database.data_procedimento.mê": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.mê"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_procedimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "database_data_procedimento_ano_has_database_data_procedimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_procedimento.ano": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.ano"
+			          }
+			        },
+			        "database.data_procedimento.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.ano"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_procedimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "database_data_procedimento_hierarquia_de_data_has_database_data_procedimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_procedimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_procedimento.dia": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "database_data_procedimento_hierarquia_de_data_has_database_data_procedimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_procedimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_procedimento.mê": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "database_data_procedimento_hierarquia_de_data_has_database_data_procedimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_procedimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_procedimento.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "database_data_procedimento_hierarquia_de_data_has_database_data_procedimento_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_procedimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_procedimento.ano": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "database_data_procedimento_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_procedimento": {
+			          "Target": {
+			            "Entity": "database.data_procedimento"
+			          }
+			        },
+			        "database.data_procedimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_procedimento.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_procedimento"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_procedimentos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "database_data_guia_mê_has_database_data_guia_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_guia.mê": {
+			          "Target": {
+			            "Entity": "database.data_guia.mê"
+			          }
+			        },
+			        "database.data_guia.dia": {
+			          "Target": {
+			            "Entity": "database.data_guia.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.mê"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.dia"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_guia.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_guia.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "database_data_guia_trimestre_has_database_data_guia_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_guia.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_guia.trimestre"
+			          }
+			        },
+			        "database.data_guia.mê": {
+			          "Target": {
+			            "Entity": "database.data_guia.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.trimestre"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.mê"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_guia.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_guia.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "database_data_guia_ano_has_database_data_guia_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_guia.ano": {
+			          "Target": {
+			            "Entity": "database.data_guia.ano"
+			          }
+			        },
+			        "database.data_guia.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_guia.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.ano"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.trimestre"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.data_guia.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.data_guia.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "database_data_guia_hierarquia_de_data_has_database_data_guia_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_guia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_guia.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_guia.dia": {
+			          "Target": {
+			            "Entity": "database.data_guia.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "database_data_guia_hierarquia_de_data_has_database_data_guia_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_guia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_guia.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_guia.mê": {
+			          "Target": {
+			            "Entity": "database.data_guia.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê3"
+			        }
+			      ]
+			    },
+			    "database_data_guia_hierarquia_de_data_has_database_data_guia_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_guia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_guia.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_guia.trimestre": {
+			          "Target": {
+			            "Entity": "database.data_guia.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "database_data_guia_hierarquia_de_data_has_database_data_guia_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_guia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_guia.hierarquia_de_data"
+			          }
+			        },
+			        "database.data_guia.ano": {
+			          "Target": {
+			            "Entity": "database.data_guia.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos3"
+			        }
+			      ]
+			    },
+			    "database_data_guia_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.data_guia": {
+			          "Target": {
+			            "Entity": "database.data_guia"
+			          }
+			        },
+			        "database.data_guia.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.data_guia.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.data_guia"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_guias_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "city_has_state": {
+			      "Binding": {
+			        "ConceptualEntity": "cities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "city": {
+			          "Target": {
+			            "Entity": "city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "city"
+			            },
+			            "Object": {
+			              "Role": "state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cities_have_states"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "state"
+			            },
+			            "Object": {
+			              "Role": "city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "states_have_cities"
+			        }
+			      ]
+			    },
+			    "database_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "city": {
+			          "Target": {
+			            "Entity": "city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_cities"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "city"
+			            },
+			            "Object": {
+			              "Role": "database"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cities_have_databases"
+			        }
+			      ]
+			    },
+			    "database_has_espécialidade": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "espécialidade": {
+			          "Target": {
+			            "Entity": "espécialidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "espécialidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_espécialidades"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "espécialidade"
+			            },
+			            "Object": {
+			              "Role": "database"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "espécialidades_have_databases"
+			        }
+			      ]
+			    },
+			    "state_has_abbr": {
+			      "Binding": {
+			        "ConceptualEntity": "states"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "state.abbr": {
+			          "Target": {
+			            "Entity": "state.abbr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "state"
+			            },
+			            "Object": {
+			              "Role": "state.abbr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "states_have_abbrs"
+			        }
+			      ]
+			    },
+			    "state_has_name": {
+			      "Binding": {
+			        "ConceptualEntity": "states"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "state.name": {
+			          "Target": {
+			            "Entity": "state.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "state"
+			            },
+			            "Object": {
+			              "Role": "state.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "states_have_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "state"
+			            },
+			            "Name": {
+			              "Role": "state.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_states"
+			        }
+			      ]
+			    },
+			    "state_has_id": {
+			      "Binding": {
+			        "ConceptualEntity": "states"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "state.id": {
+			          "Target": {
+			            "Entity": "state.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "state"
+			            },
+			            "Object": {
+			              "Role": "state.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "states_have_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "state"
+			            },
+			            "Name": {
+			              "Role": "state.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_states"
+			        }
+			      ]
+			    },
+			    "city_has_name": {
+			      "Binding": {
+			        "ConceptualEntity": "cities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "city": {
+			          "Target": {
+			            "Entity": "city"
+			          }
+			        },
+			        "city.name": {
+			          "Target": {
+			            "Entity": "city.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "city"
+			            },
+			            "Object": {
+			              "Role": "city.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cities_have_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "city"
+			            },
+			            "Name": {
+			              "Role": "city.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_cities"
+			        }
+			      ]
+			    },
+			    "city_has_id": {
+			      "Binding": {
+			        "ConceptualEntity": "cities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "city": {
+			          "Target": {
+			            "Entity": "city"
+			          }
+			        },
+			        "city.id": {
+			          "Target": {
+			            "Entity": "city.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "city"
+			            },
+			            "Object": {
+			              "Role": "city.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cities_have_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "city"
+			            },
+			            "Name": {
+			              "Role": "city.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_cities"
+			        }
+			      ]
+			    },
+			    "espécialidade_has_baq_codpad": {
+			      "Binding": {
+			        "ConceptualEntity": "Espécialidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "espécialidade": {
+			          "Target": {
+			            "Entity": "espécialidade"
+			          }
+			        },
+			        "espécialidade.baq_codpad": {
+			          "Target": {
+			            "Entity": "espécialidade.baq_codpad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "espécialidade"
+			            },
+			            "Object": {
+			              "Role": "espécialidade.baq_codpad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "espécialidades_have_baq_codpads"
+			        }
+			      ]
+			    },
+			    "espécialidade_has_baq_descri": {
+			      "Binding": {
+			        "ConceptualEntity": "Espécialidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "espécialidade": {
+			          "Target": {
+			            "Entity": "espécialidade"
+			          }
+			        },
+			        "espécialidade.baq_descri": {
+			          "Target": {
+			            "Entity": "espécialidade.baq_descri"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "espécialidade"
+			            },
+			            "Object": {
+			              "Role": "espécialidade.baq_descri"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "espécialidades_have_baq_descris"
+			        }
+			      ]
+			    },
+			    "espécialidade_has_baq_codesp": {
+			      "Binding": {
+			        "ConceptualEntity": "Espécialidades"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "espécialidade": {
+			          "Target": {
+			            "Entity": "espécialidade"
+			          }
+			        },
+			        "espécialidade.baq_codesp": {
+			          "Target": {
+			            "Entity": "espécialidade.baq_codesp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "espécialidade"
+			            },
+			            "Object": {
+			              "Role": "espécialidade.baq_codesp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "espécialidades_have_baq_codesps"
+			        }
+			      ]
+			    },
+			    "database_has_estado_certo_ABV": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.estado_certo_ABV": {
+			          "Target": {
+			            "Entity": "database.estado_certo_ABV"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.estado_certo_ABV"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_estado_certo_ABVs"
+			        }
+			      ]
+			    },
+			    "database_has_estado_certo": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.estado_certo": {
+			          "Target": {
+			            "Entity": "database.estado_certo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.estado_certo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_estado_certos"
+			        }
+			      ]
+			    },
+			    "database_has_subcontrato": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.subcontrato": {
+			          "Target": {
+			            "Entity": "database.subcontrato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.subcontrato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_subcontratos"
+			        }
+			      ]
+			    },
+			    "database_has_plano": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.plano": {
+			          "Target": {
+			            "Entity": "database.plano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.plano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_plano"
+			        }
+			      ]
+			    },
+			    "database_has_alta": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.alta": {
+			          "Target": {
+			            "Entity": "database.alta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.alta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_alta"
+			        }
+			      ]
+			    },
+			    "database_has_internacao": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.internacao": {
+			          "Target": {
+			            "Entity": "database.internacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.internacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_internacaos"
+			        }
+			      ]
+			    },
+			    "database_has_patrocinadora": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.patrocinadora": {
+			          "Target": {
+			            "Entity": "database.patrocinadora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.patrocinadora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_patrocinadoras"
+			        }
+			      ]
+			    },
+			    "database_has_despesa_contabil": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.despesa_contabil": {
+			          "Target": {
+			            "Entity": "database.despesa_contabil"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.despesa_contabil"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_despesa_contabils"
+			        }
+			      ]
+			    },
+			    "database_has_emissao_titulo": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.emissao_titulo": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_emissao_titulos"
+			        }
+			      ]
+			    },
+			    "database_has_local": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.local": {
+			          "Target": {
+			            "Entity": "database.local"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.local"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_locals"
+			        }
+			      ]
+			    },
+			    "database_has_lote_pagamento": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.lote_pagamento": {
+			          "Target": {
+			            "Entity": "database.lote_pagamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.lote_pagamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_lote_pagamentos"
+			        }
+			      ]
+			    },
+			    "database_has_numpimtel": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.numpimtel": {
+			          "Target": {
+			            "Entity": "database.numpimtel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.numpimtel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_numpimtels"
+			        }
+			      ]
+			    },
+			    "database_has_indcli": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.indcli": {
+			          "Target": {
+			            "Entity": "database.indcli"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.indcli"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_indclis"
+			        }
+			      ]
+			    },
+			    "database_has_cid": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.cid": {
+			          "Target": {
+			            "Entity": "database.cid"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.cid"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_cid"
+			        }
+			      ]
+			    },
+			    "database_has_tipo_atendimento": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.tipo_atendimento": {
+			          "Target": {
+			            "Entity": "database.tipo_atendimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.tipo_atendimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_tipo_atendimentos"
+			        }
+			      ]
+			    },
+			    "database_has_data_digitacao": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.data_digitacao": {
+			          "Target": {
+			            "Entity": "database.data_digitacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.data_digitacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_data_digitacaos"
+			        }
+			      ]
+			    },
+			    "database_has_fase": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.fase": {
+			          "Target": {
+			            "Entity": "database.fase"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.fase"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_fases"
+			        }
+			      ]
+			    },
+			    "database_has_situacao_guia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.situacao_guia": {
+			          "Target": {
+			            "Entity": "database.situacao_guia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.situacao_guia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_situacao_guias"
+			        }
+			      ]
+			    },
+			    "database_has_val_coparticipacao": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.val_coparticipacao": {
+			          "Target": {
+			            "Entity": "database.val_coparticipacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.val_coparticipacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_val_coparticipacaos"
+			        }
+			      ]
+			    },
+			    "database_has_val_item": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.val_item": {
+			          "Target": {
+			            "Entity": "database.val_item"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.val_item"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_val_items"
+			        }
+			      ]
+			    },
+			    "database_has_val_glosa": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.val_glosa": {
+			          "Target": {
+			            "Entity": "database.val_glosa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.val_glosa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_val_glosas"
+			        }
+			      ]
+			    },
+			    "database_has_val_informado": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.val_informado": {
+			          "Target": {
+			            "Entity": "database.val_informado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.val_informado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_val_informados"
+			        }
+			      ]
+			    },
+			    "database_has_qtd_item": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.qtd_item": {
+			          "Target": {
+			            "Entity": "database.qtd_item"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.qtd_item"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_qtd_items"
+			        }
+			      ]
+			    },
+			    "database_has_desc_procedimento": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.desc_procedimento": {
+			          "Target": {
+			            "Entity": "database.desc_procedimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.desc_procedimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_desc_procedimentos"
+			        }
+			      ]
+			    },
+			    "database_has_codigo_procedimento": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.codigo_procedimento": {
+			          "Target": {
+			            "Entity": "database.codigo_procedimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.codigo_procedimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_codigo_procedimentos"
+			        }
+			      ]
+			    },
+			    "database_has_tabela": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.tabela": {
+			          "Target": {
+			            "Entity": "database.tabela"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.tabela"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_tabelas"
+			        }
+			      ]
+			    },
+			    "database_has_data_procedimento": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.data_procedimento": {
+			          "Target": {
+			            "Entity": "database.data_procedimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.data_procedimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_data_procedimentos"
+			        }
+			      ]
+			    },
+			    "database_has_estado": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.estado": {
+			          "Target": {
+			            "Entity": "database.estado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.estado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_estado"
+			        }
+			      ]
+			    },
+			    "database_has_data_guia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.data_guia": {
+			          "Target": {
+			            "Entity": "database.data_guia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.data_guia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_data_guias"
+			        }
+			      ]
+			    },
+			    "database_has_cod_usuario": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.cod_usuario": {
+			          "Target": {
+			            "Entity": "database.cod_usuario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.cod_usuario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_cod_usuarios"
+			        }
+			      ]
+			    },
+			    "database_has_matricula_antiga": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.matricula_antiga": {
+			          "Target": {
+			            "Entity": "database.matricula_antiga"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.matricula_antiga"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_matricula_antigas"
+			        }
+			      ]
+			    },
+			    "database_has_ano_senha": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.ano_senha": {
+			          "Target": {
+			            "Entity": "database.ano_senha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.ano_senha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_ano_senhas"
+			        }
+			      ]
+			    },
+			    "database_has_senha": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.senha": {
+			          "Target": {
+			            "Entity": "database.senha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.senha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_senhas"
+			        }
+			      ]
+			    },
+			    "database_has_vencimento": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.vencimento": {
+			          "Target": {
+			            "Entity": "database.vencimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.vencimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_vencimentos"
+			        }
+			      ]
+			    },
+			    "database_has_situacao": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.situacao": {
+			          "Target": {
+			            "Entity": "database.situacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.situacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_situacaos"
+			        }
+			      ]
+			    },
+			    "database_has_item": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.item": {
+			          "Target": {
+			            "Entity": "database.item"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.item"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_items"
+			        }
+			      ]
+			    },
+			    "database_has_numero": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.numero": {
+			          "Target": {
+			            "Entity": "database.numero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.numero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_numeros"
+			        }
+			      ]
+			    },
+			    "database_has_processo": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.processo": {
+			          "Target": {
+			            "Entity": "database.processo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.processo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_processos"
+			        }
+			      ]
+			    },
+			    "database_has_matricula": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.matricula": {
+			          "Target": {
+			            "Entity": "database.matricula"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.matricula"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_matriculas"
+			        }
+			      ]
+			    },
+			    "database_has_nome_da_origem": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "database.nome_da_origem": {
+			          "Target": {
+			            "Entity": "database.nome_da_origem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Object": {
+			              "Role": "database.nome_da_origem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_have_nome_da_origems"
+			        }
+			      ]
+			    },
+			    "city_in_state": {
+			      "Binding": {
+			        "ConceptualEntity": "cities"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "city": {
+			          "Target": {
+			            "Entity": "city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "state"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "city"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "state"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cities_are_in_states"
+			        }
+			      ]
+			    },
+			    "database_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database": {
+			          "Target": {
+			            "Entity": "database"
+			          }
+			        },
+			        "city": {
+			          "Target": {
+			            "Entity": "city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "databases_are_in_cities"
+			        }
+			      ]
+			    },
+			    "database_emissao_titulo_hierarquia_de_data_has_database_emissao_titulo_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.emissao_titulo.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.hierarquia_de_data"
+			          }
+			        },
+			        "database.emissao_titulo.dia": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias3"
+			        }
+			      ]
+			    },
+			    "database_emissao_titulo_ano_has_database_emissao_titulo_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.emissao_titulo.ano": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.ano"
+			          }
+			        },
+			        "database.emissao_titulo.trimestre": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.ano"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.trimestre"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.emissao_titulo.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos3"
+			        }
+			      ]
+			    },
+			    "database_emissao_titulo_trimestre_has_database_emissao_titulo_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.emissao_titulo.trimestre": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.trimestre"
+			          }
+			        },
+			        "database.emissao_titulo.mê": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.trimestre"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.mê"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.emissao_titulo.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "database_emissao_titulo_mê_has_database_emissao_titulo_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "database"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "database.emissao_titulo.mê": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.mê"
+			          }
+			        },
+			        "database.emissao_titulo.dia": {
+			          "Target": {
+			            "Entity": "database.emissao_titulo.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.mê"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.dia"
+			            },
+			            "Object": {
+			              "Role": "database.emissao_titulo.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "database.emissao_titulo.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "database.emissao_titulo.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê3"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
 			}
 		contentType: json
 

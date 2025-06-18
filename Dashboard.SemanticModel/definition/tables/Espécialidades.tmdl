@@ -31,7 +31,7 @@ table Espécialidades
 		mode: import
 		source =
 				let
-				    Fonte = Csv.Document(File.Contents("C:\Users\Maurilio\Desktop\Projeto-Integrador-III\database\Espécialidades.csv"),[Delimiter=";", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    Fonte = Csv.Document(File.Contents("C:\Users\Aninh\OneDrive\Área de Trabalho\Projeto Integrador\Projeto-Integrador-III-main (1)\Projeto-Integrador-III-main\database\Espécialidades.csv"),[Delimiter=";", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.None]),
 				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
 				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"BAQ_CODESP", Int64.Type}, {"BAQ_DESCRI", type text}, {"BAQ_CODPAD", Int64.Type}})
 				in

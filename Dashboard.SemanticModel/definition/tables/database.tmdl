@@ -10,19 +10,17 @@ table database
 		annotation SummarizationSetBy = Automatic
 
 	column MATRICULA
-		dataType: int64
-		formatString: 0
+		dataType: string
 		lineageTag: 7f9a4a51-ec1d-4706-af0e-46c2405c6f16
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MATRICULA
 
 		annotation SummarizationSetBy = Automatic
 
 	column PROCESSO
-		dataType: int64
-		formatString: 0
+		dataType: string
 		lineageTag: 713a3bf7-7136-4964-822f-c0b2afeb79c1
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: PROCESSO
 
 		annotation SummarizationSetBy = Automatic
@@ -37,10 +35,9 @@ table database
 		annotation SummarizationSetBy = Automatic
 
 	column ITEM
-		dataType: int64
-		formatString: 0
+		dataType: string
 		lineageTag: dead29f5-87b3-4212-9080-150991ae499f
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: ITEM
 
 		annotation SummarizationSetBy = Automatic
@@ -54,37 +51,33 @@ table database
 		annotation SummarizationSetBy = Automatic
 
 	column VENCIMENTO
-		dataType: int64
-		formatString: 0
+		dataType: string
 		lineageTag: 11a37f54-3664-4243-9fc1-2d0f5d325f00
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: VENCIMENTO
 
 		annotation SummarizationSetBy = Automatic
 
 	column SENHA
-		dataType: int64
-		formatString: 0
+		dataType: string
 		lineageTag: c03442d0-130b-4153-8bb6-72b5edfac57f
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: SENHA
 
 		annotation SummarizationSetBy = Automatic
 
 	column ANO_SENHA
-		dataType: int64
-		formatString: 0
+		dataType: string
 		lineageTag: b017401d-e62a-4767-8800-6c7d5eebf36c
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: ANO_SENHA
 
 		annotation SummarizationSetBy = Automatic
 
 	column MATRICULA_ANTIGA
-		dataType: int64
-		formatString: 0
+		dataType: string
 		lineageTag: b87e9f75-9b65-4f68-98e5-5b8bfa07526f
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: MATRICULA_ANTIGA
 
 		annotation SummarizationSetBy = Automatic
@@ -165,10 +158,9 @@ table database
 		annotation SummarizationSetBy = Automatic
 
 	column CODIGO_PROCEDIMENTO
-		dataType: int64
-		formatString: 0
+		dataType: string
 		lineageTag: 41dd8b80-8887-48c3-b2db-2b14ca6401bb
-		summarizeBy: sum
+		summarizeBy: none
 		sourceColumn: CODIGO_PROCEDIMENTO
 
 		annotation SummarizationSetBy = Automatic
@@ -380,11 +372,23 @@ table database
 
 		annotation SummarizationSetBy = Automatic
 
+	column EstadoCerto = RELATED(states[name])
+		lineageTag: 98aa1aae-2c5b-4468-87a9-1a50994d2a79
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column EstadoCertoABV = RELATED(states[abbr])
+		lineageTag: a0038717-2773-46a8-b505-20e06c6ef25d
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
 	partition database = m
 		mode: import
 		source =
 				let
-				    Fonte = Folder.Files("C:\Users\Maurilio\Desktop\Projeto-Integrador-III\database"),
+				    Fonte = Folder.Files("C:\Users\Aninh\OneDrive\Área de Trabalho\Projeto Integrador\Projeto-Integrador-III-main (1)\Projeto-Integrador-III-main\database"),
 				    #"Arquivos Ocultos Filtrados1" = Table.SelectRows(Fonte, each [Attributes]?[Hidden]? <> true),
 				    #"Invocar Função Personalizada1" = Table.AddColumn(#"Arquivos Ocultos Filtrados1", "Transformar Arquivo", each #"Transformar Arquivo"([Content])),
 				    #"Colunas Renomeadas1" = Table.RenameColumns(#"Invocar Função Personalizada1", {"Name", "Nome da Origem"}),
@@ -392,9 +396,15 @@ table database
 				    #"Coluna de Tabela Expandida1" = Table.ExpandTableColumn(#"Outras Colunas Removidas1", "Transformar Arquivo", Table.ColumnNames(#"Transformar Arquivo"(#"Arquivo de Amostra"))),
 				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Coluna de Tabela Expandida1",{{"Nome da Origem", type text}, {"Column1", Int64.Type}, {"Column2", Int64.Type}, {"Column3", Int64.Type}, {"Column4", Int64.Type}, {"Column5", type text}, {"Column6", Int64.Type}, {"Column7", Int64.Type}, {"Column8", Int64.Type}, {"Column9", Int64.Type}, {"Column10", Int64.Type}, {"Column11", Int64.Type}, {"Column12", type text}, {"Column13", type date}, {"Column14", type text}, {"Column15", type date}, {"Column16", Int64.Type}, {"Column17", Int64.Type}, {"Column18", type text}, {"Column19", Int64.Type}, {"Column20", type number}, {"Column21", type number}, {"Column22", type number}, {"Column23", type number}, {"Column24", Int64.Type}, {"Column25", Int64.Type}, {"Column26", type date}, {"Column27", type text}, {"Column28", type any}, {"Column29", type text}, {"Column30", type text}, {"Column31", Int64.Type}, {"Column32", Int64.Type}, {"Column33", type date}, {"Column34", type text}, {"Column35", Int64.Type}, {"Column36", type any}, {"Column37", type any}, {"Column38", type text}, {"Column39", Int64.Type}}),
 				    #"Linhas Filtradas" = Table.SelectRows(#"Tipo Alterado", each true),
-				    #"Colunas Renomeadas" = Table.RenameColumns(#"Linhas Filtradas",{{"Column1", "MATRICULA"}, {"Column2", "PROCESSO"}, {"Column3", "NUMERO"}, {"Column4", "ITEM"}, {"Column5", "SITUACAO"}, {"Column6", "VENCIMENTO"}, {"Column7", "SENHA"}, {"Column8", "ANO_SENHA"}, {"Column9", "MATRICULA_ANTIGA"}, {"Column10", "COD_USUARIO"}, {"Column11", "COD_ESPECIALIDADE"}, {"Column12", "MUNICIPIO"}, {"Column13", "DATA_GUIA"}, {"Column14", "ESTADO"}, {"Column15", "DATA_PROCEDIMENTO"}, {"Column16", "TABELA"}, {"Column17", "CODIGO_PROCEDIMENTO"}, {"Column18", "DESC_PROCEDIMENTO"}, {"Column19", "QTD_ITEM"}, {"Column20", "VAL_INFORMADO"}, {"Column21", "VAL_GLOSA"}, {"Column22", "VAL_ITEM"}, {"Column23", "VAL_COPARTICIPACAO"}, {"Column24", "SITUACAO_GUIA"}, {"Column25", "FASE"}, {"Column26", "DATA_DIGITACAO"}, {"Column27", "TIPO_ATENDIMENTO"}, {"Column28", "CID"}, {"Column29", "INDCLI"}, {"Column30", "NUMPIMTEL"}, {"Column31", "LOTE_PAGAMENTO"}, {"Column32", "LOCAL"}, {"Column33", "EMISSAO_TITULO"}, {"Column34", "DESPESA_CONTABIL"}, {"Column35", "PATROCINADORA"}, {"Column36", "INTERNACAO"}, {"Column37", "ALTA"}, {"Column38", "PLANO"}, {"Column39", "SUBCONTRATO"}})
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Linhas Filtradas",{{"Column1", "MATRICULA"}, {"Column2", "PROCESSO"}, {"Column3", "NUMERO"}, {"Column4", "ITEM"}, {"Column5", "SITUACAO"}, {"Column6", "VENCIMENTO"}, {"Column7", "SENHA"}, {"Column8", "ANO_SENHA"}, {"Column9", "MATRICULA_ANTIGA"}, {"Column10", "COD_USUARIO"}, {"Column11", "COD_ESPECIALIDADE"}, {"Column12", "MUNICIPIO"}, {"Column13", "DATA_GUIA"}, {"Column14", "ESTADO"}, {"Column15", "DATA_PROCEDIMENTO"}, {"Column16", "TABELA"}, {"Column17", "CODIGO_PROCEDIMENTO"}, {"Column18", "DESC_PROCEDIMENTO"}, {"Column19", "QTD_ITEM"}, {"Column20", "VAL_INFORMADO"}, {"Column21", "VAL_GLOSA"}, {"Column22", "VAL_ITEM"}, {"Column23", "VAL_COPARTICIPACAO"}, {"Column24", "SITUACAO_GUIA"}, {"Column25", "FASE"}, {"Column26", "DATA_DIGITACAO"}, {"Column27", "TIPO_ATENDIMENTO"}, {"Column28", "CID"}, {"Column29", "INDCLI"}, {"Column30", "NUMPIMTEL"}, {"Column31", "LOTE_PAGAMENTO"}, {"Column32", "LOCAL"}, {"Column33", "EMISSAO_TITULO"}, {"Column34", "DESPESA_CONTABIL"}, {"Column35", "PATROCINADORA"}, {"Column36", "INTERNACAO"}, {"Column37", "ALTA"}, {"Column38", "PLANO"}, {"Column39", "SUBCONTRATO"}}),
+				    #"Erros Substituídos" = Table.ReplaceErrorValues(#"Colunas Renomeadas", {{"MATRICULA", null}}),
+				    #"Erros Substituídos1" = Table.ReplaceErrorValues(#"Erros Substituídos", {{"PROCESSO", null}}),
+				    #"Erros Substituídos2" = Table.ReplaceErrorValues(#"Erros Substituídos1", {{"NUMERO", null}}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Erros Substituídos2",{{"MATRICULA", type text}, {"PROCESSO", type text}, {"ITEM", type text}, {"VENCIMENTO", type text}, {"SENHA", type text}, {"ANO_SENHA", type text}, {"MATRICULA_ANTIGA", type text}}),
+				    #"Linhas Filtradas1" = Table.SelectRows(#"Tipo Alterado1", each ([Nome da Origem] <> "Espécialidades.csv")),
+				    #"Tipo Alterado2" = Table.TransformColumnTypes(#"Linhas Filtradas1",{{"CODIGO_PROCEDIMENTO", type text}})
 				in
-				    #"Colunas Renomeadas"
+				    #"Tipo Alterado2"
 
 	annotation PBI_NavigationStepName = Navegação
 

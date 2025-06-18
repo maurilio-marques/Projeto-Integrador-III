@@ -6,7 +6,6 @@ table DateTableTemplate_fb0fb56f-e56d-4847-9e02-39bc5078c157
 	column Date
 		dataType: dateTime
 		isHidden
-		formatString: General Date
 		lineageTag: e793a7cc-16ff-4c29-a80a-2cfec451ae88
 		dataCategory: PaddedDateTableDates
 		summarizeBy: none
@@ -18,7 +17,6 @@ table DateTableTemplate_fb0fb56f-e56d-4847-9e02-39bc5078c157
 	column Ano = YEAR([Date])
 		dataType: int64
 		isHidden
-		formatString: 0
 		lineageTag: e720808d-d685-4727-814f-f25e5613b83d
 		dataCategory: Years
 		summarizeBy: none
@@ -30,7 +28,6 @@ table DateTableTemplate_fb0fb56f-e56d-4847-9e02-39bc5078c157
 	column MonthNo = MONTH([Date])
 		dataType: int64
 		isHidden
-		formatString: 0
 		lineageTag: 5b59b96e-96ec-4bee-9466-b97d424fdc1b
 		dataCategory: MonthOfYear
 		summarizeBy: none
@@ -54,7 +51,6 @@ table DateTableTemplate_fb0fb56f-e56d-4847-9e02-39bc5078c157
 	column QuarterNo = INT(([MonthNo] + 2) / 3)
 		dataType: int64
 		isHidden
-		formatString: 0
 		lineageTag: 3e294996-5f61-4b79-ab36-c6578ef1b487
 		dataCategory: QuarterOfYear
 		summarizeBy: none
@@ -78,7 +74,6 @@ table DateTableTemplate_fb0fb56f-e56d-4847-9e02-39bc5078c157
 	column Dia = DAY([Date])
 		dataType: int64
 		isHidden
-		formatString: 0
 		lineageTag: 00b4920d-7b59-4df9-bd34-67204e761d46
 		dataCategory: DayOfMonth
 		summarizeBy: none

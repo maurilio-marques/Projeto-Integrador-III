@@ -1,6 +1,6 @@
 expression 'Arquivo de Amostra' =
 		let
-		    Fonte = Folder.Files("C:\Users\Maurilio\Desktop\Projeto-Integrador-III\database"),
+		    Fonte = Folder.Files("C:\Users\Aninh\OneDrive\Área de Trabalho\Projeto Integrador\Projeto-Integrador-III-main (1)\Projeto-Integrador-III-main\database"),
 		    Navegação1 = Fonte{0}[Content]
 		in
 		    Navegação1
@@ -33,7 +33,7 @@ expression 'Transformar o Arquivo de Exemplo' =
 
 expression 'Transformar Arquivo' =
 		let
-		    Fonte = (Parâmetro1) => let
+		    Fonte = (Parâmetro1 as binary) => let
 		        Fonte = Csv.Document(Parâmetro1,[Delimiter=";", Columns=39, Encoding=65001, QuoteStyle=QuoteStyle.None])
 		    in
 		        Fonte

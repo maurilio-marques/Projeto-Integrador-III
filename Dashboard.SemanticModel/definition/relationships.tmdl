@@ -22,3 +22,11 @@ relationship 3dee61d5-7269-eeb3-c9b9-f0e0053cc959
 	fromColumn: database.COD_ESPECIALIDADE
 	toColumn: Espécialidades.BAQ_CODESP
 
+relationship be09d69a-c41d-17b8-476e-fe7dc80cc4df
+	fromColumn: cities.state_id
+	toColumn: states.id
+
+relationship 68a8d196-c3da-03a9-8263-9ae6a4d35cc8
+	fromColumn: database.MUNICIPIO
+	toColumn: cities.name
+
